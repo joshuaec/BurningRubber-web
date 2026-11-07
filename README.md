@@ -2,6 +2,8 @@
 
 This is a static browser port of the MIT-licensed 1995 Pascal game created by Jonas Echterhoff. It reads the original level, road, car, object, animation, sprite, and sound resources bundled in `data/` and runs at the original 620 × 480 playfield resolution.
 
+![Screenshot](./screenshot.png)
+
 ## AI disclaimer
 
 This was built with a combination of free AI harnesses / models. Primarily GPT-6 Luna via GitHub Copilot Free tier.
