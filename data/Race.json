@@ -1,0 +1,2586 @@
+{
+	"_metadata": {
+		"junk1": 21012772,
+		"junk2": 6018,
+		"file_attributes": 0
+	},
+	"TMPL": {
+		"128": {
+			"name": "CAR ",
+			"order": 0,
+			"obj": [
+				{
+					"label": "Base cicn",
+					"type": "DWRD"
+				},
+				{
+					"label": "CrashDie",
+					"type": "DWRD"
+				},
+				{
+					"label": "WaterDie",
+					"type": "DWRD"
+				},
+				{
+					"label": "MaxSpeed",
+					"type": "DWRD"
+				},
+				{
+					"label": "Acceleration",
+					"type": "DWRD"
+				},
+				{
+					"label": "Brakes",
+					"type": "DWRD"
+				},
+				{
+					"label": "Steering",
+					"type": "DWRD"
+				},
+				{
+					"label": "Frames",
+					"type": "DWRD"
+				},
+				{
+					"label": "Bumping",
+					"type": "DWRD"
+				},
+				{
+					"label": "OffRoad",
+					"type": "DWRD"
+				},
+				{
+					"label": "Steering model",
+					"type": "DWRD"
+				},
+				{
+					"label": "Info1",
+					"type": "PSTR"
+				},
+				{
+					"label": "Info2",
+					"type": "PSTR"
+				},
+				{
+					"label": "Info3",
+					"type": "PSTR"
+				}
+			]
+		},
+		"129": {
+			"name": "ROAD",
+			"order": 1,
+			"obj": [
+				{
+					"label": "Road Color",
+					"type": "DWRD"
+				},
+				{
+					"label": "Back Color",
+					"type": "DWRD"
+				},
+				{
+					"label": "Barrier Color ",
+					"type": "DWRD"
+				},
+				{
+					"label": "",
+					"type": "DWRD"
+				},
+				{
+					"label": "Road Color R",
+					"type": "HWRD"
+				},
+				{
+					"label": "Road Color G",
+					"type": "HWRD"
+				},
+				{
+					"label": "Road Color B",
+					"type": "HWRD"
+				},
+				{
+					"label": "",
+					"type": "DWRD"
+				},
+				{
+					"label": "Back Color R",
+					"type": "HWRD"
+				},
+				{
+					"label": "Back Color G",
+					"type": "HWRD"
+				},
+				{
+					"label": "Back Color B",
+					"type": "HWRD"
+				},
+				{
+					"label": "",
+					"type": "DWRD"
+				},
+				{
+					"label": "Barrier Color R",
+					"type": "HWRD"
+				},
+				{
+					"label": "Barrier Color G",
+					"type": "HWRD"
+				},
+				{
+					"label": "Barrier Color B",
+					"type": "HWRD"
+				},
+				{
+					"label": "Slidy",
+					"type": "DWRD"
+				},
+				{
+					"label": "Acceleration",
+					"type": "DWRD"
+				},
+				{
+					"label": "MaxSpeed",
+					"type": "DWRD"
+				},
+				{
+					"label": "Kill",
+					"type": "BBIT"
+				},
+				{
+					"label": "Drawn",
+					"type": "BBIT"
+				},
+				{
+					"label": "Brake",
+					"type": "BBIT"
+				},
+				{
+					"label": "Don't draw Road",
+					"type": "BBIT"
+				},
+				{
+					"label": "-",
+					"type": "BBIT"
+				},
+				{
+					"label": "-",
+					"type": "BBIT"
+				},
+				{
+					"label": "-",
+					"type": "BBIT"
+				},
+				{
+					"label": "-",
+					"type": "BBIT"
+				}
+			]
+		},
+		"130": {
+			"name": "ANIM",
+			"order": 2,
+			"obj": [
+				{
+					"label": "Scroll with",
+					"type": "DWRD"
+				},
+				{
+					"label": "Sound",
+					"type": "DWRD"
+				},
+				{
+					"label": "",
+					"type": "LSTB"
+				},
+				{
+					"label": "The Frame",
+					"type": "DWRD"
+				},
+				{
+					"label": "",
+					"type": "LSTE"
+				}
+			]
+		},
+		"132": {
+			"name": "SETT",
+			"order": 3,
+			"obj": [
+				{
+					"label": "Width",
+					"type": "DWRD"
+				},
+				{
+					"label": "Height",
+					"type": "DWRD"
+				},
+				{
+					"label": "Emboss",
+					"type": "BBIT"
+				},
+				{
+					"label": "Blank Screen",
+					"type": "BBIT"
+				},
+				{
+					"label": "RoadTex",
+					"type": "BBIT"
+				},
+				{
+					"label": "BackTex",
+					"type": "BBIT"
+				},
+				{
+					"label": "SoundFX",
+					"type": "BBIT"
+				},
+				{
+					"label": "SoundEngine",
+					"type": "BBIT"
+				},
+				{
+					"label": "Speed",
+					"type": "BBIT"
+				},
+				{
+					"label": "",
+					"type": "BBIT"
+				},
+				{
+					"label": "Unused",
+					"type": "DBYT"
+				},
+				{
+					"label": "TextureSize",
+					"type": "DWRD"
+				},
+				{
+					"label": "Speed Governer",
+					"type": "DWRD"
+				},
+				{
+					"label": "obsolute",
+					"type": "DWRD"
+				},
+				{
+					"label": "Cargraf Offset",
+					"type": "DWRD"
+				}
+			]
+		},
+		"134": {
+			"name": "ODEF",
+			"order": 4,
+			"obj": [
+				{
+					"label": "Icon",
+					"type": "DWRD"
+				},
+				{
+					"label": "UDSpeed",
+					"type": "DWRD"
+				},
+				{
+					"label": "LRSpeed",
+					"type": "DWRD"
+				},
+				{
+					"label": "Brake",
+					"type": "DWRD"
+				},
+				{
+					"label": "DieAnimation",
+					"type": "DWRD"
+				},
+				{
+					"label": "CarCrash",
+					"type": "BBIT"
+				},
+				{
+					"label": "CrashCar",
+					"type": "BBIT"
+				},
+				{
+					"label": "Collect",
+					"type": "BBIT"
+				},
+				{
+					"label": "Navigate",
+					"type": "BBIT"
+				},
+				{
+					"label": "Slide",
+					"type": "BBIT"
+				},
+				{
+					"label": "SlideCar",
+					"type": "BBIT"
+				},
+				{
+					"label": "Jump",
+					"type": "BBIT"
+				},
+				{
+					"label": "BackCrash",
+					"type": "BBIT"
+				},
+				{
+					"label": "empty",
+					"type": "DBYT"
+				},
+				{
+					"label": "ExtraWidth",
+					"type": "DWRD"
+				},
+				{
+					"label": "ExtraHeight",
+					"type": "DWRD"
+				},
+				{
+					"label": "Weigth",
+					"type": "DWRD"
+				},
+				{
+					"label": "HitCrash",
+					"type": "DWRD"
+				},
+				{
+					"label": "Jump",
+					"type": "DWRD"
+				},
+				{
+					"label": "Score",
+					"type": "DWRD"
+				}
+			]
+		},
+		"136": {
+			"name": "KEYS",
+			"order": 5,
+			"obj": [
+				{
+					"label": "",
+					"type": "LSTB"
+				},
+				{
+					"label": "Scan Code",
+					"type": "DWRD"
+				},
+				{
+					"label": "Char Code",
+					"type": "PSTR"
+				},
+				{
+					"label": "",
+					"type": "LSTE"
+				}
+			]
+		},
+		"137": {
+			"name": "CTLS",
+			"order": 6,
+			"obj": [
+				{
+					"label": "Accelerate Key",
+					"type": "HWRD"
+				},
+				{
+					"label": "Brake Key",
+					"type": "HWRD"
+				},
+				{
+					"label": "LKey",
+					"type": "HWRD"
+				},
+				{
+					"label": "RKey",
+					"type": "HWRD"
+				}
+			]
+		},
+		"138": {
+			"name": "Sped",
+			"order": 7,
+			"obj": [
+				{
+					"label": "",
+					"type": "LSTB"
+				},
+				{
+					"label": "H:Cos",
+					"type": "DWRD"
+				},
+				{
+					"label": "V:Sin",
+					"type": "DWRD"
+				},
+				{
+					"label": "",
+					"type": "LSTE"
+				}
+			]
+		},
+		"139": {
+			"name": "HIGH",
+			"order": 8,
+			"obj": [
+				{
+					"label": "Score",
+					"type": "DLNG"
+				},
+				{
+					"label": "Name",
+					"type": "PSTR"
+				}
+			]
+		},
+		"200": {
+			"name": "PrLd",
+			"order": 310,
+			"obj": [
+				{
+					"label": "",
+					"type": "LSTB"
+				},
+				{
+					"label": "ID:",
+					"type": "DWRD"
+				},
+				{
+					"label": "",
+					"type": "LSTE"
+				}
+			]
+		}
+	},
+	"ppat": {
+		"1030": {
+			"flags": 32,
+			"order": 9,
+			"file": "ppat/1030.png"
+		},
+		"1060": {
+			"order": 10,
+			"file": "ppat/1060.png"
+		},
+		"1010": {
+			"flags": 32,
+			"order": 11,
+			"file": "ppat/1010.png"
+		},
+		"1020": {
+			"flags": 32,
+			"order": 13,
+			"file": "ppat/1020.png"
+		},
+		"1050": {
+			"order": 14,
+			"file": "ppat/1050.png"
+		},
+		"1016": {
+			"flags": 32,
+			"order": 255,
+			"file": "ppat/1016.png"
+		},
+		"1040": {
+			"order": 12,
+			"file": "ppat/1040.png"
+		}
+	},
+	"ANIM": {
+		"2000": {
+			"name": "Mine",
+			"order": 15,
+			"data": "000004B0057A047E047F"
+		},
+		"2001": {
+			"name": "Puddle",
+			"order": 16,
+			"data": "00000080"
+		},
+		"2002": {
+			"name": "Rudolf,the Red nosed Raindeer",
+			"order": 17,
+			"data": "000004B204880489048A048A048A048A048A048A048A048A048A048A048A048A048A048A048A048A048A048A"
+		},
+		"2003": {
+			"name": "FlagMaAAhhaaIIhan",
+			"order": 18,
+			"data": "000004B3048D048F048E048E048E048E048E048E"
+		},
+		"2005": {
+			"name": "Sign",
+			"order": 19,
+			"data": "000004B4049204930494049404940494"
+		},
+		"2006": {
+			"name": "Gitter",
+			"order": 20,
+			"data": "000004B404970498049904990499049904990499"
+		},
+		"2007": {
+			"name": "Palm",
+			"order": 21,
+			"data": "000004B20580049C049D049D"
+		},
+		"2009": {
+			"name": "Biker",
+			"order": 22,
+			"data": "000004B304A604A704A804A804A804A804A804A804A8"
+		},
+		"1020": {
+			"name": "Standart Explosion",
+			"order": 23,
+			"data": "000004560451045204530454"
+		},
+		"2010": {
+			"name": "Train",
+			"order": 24,
+			"data": "000004B604AB04AD04AE04AE04AE04AE04AE04AE04AE04AE04AE04AE"
+		},
+		"2011": {
+			"name": "Schranke",
+			"order": 25,
+			"data": "000004B407080709070A070A070B070B"
+		},
+		"2012": {
+			"name": "Cactus",
+			"order": 26,
+			"data": "000004B2058E070D070E070E"
+		},
+		"2013": {
+			"name": "DeadSign",
+			"order": 27,
+			"data": "000004B407120713071307140714071407140714071407140714071407140714"
+		},
+		"10000": {
+			"name": "Dummy",
+			"order": 28,
+			"data": "00000080"
+		},
+		"2014": {
+			"name": "SnowMan",
+			"order": 29,
+			"data": "0000008007170718071807190719"
+		},
+		"2015": {
+			"name": "WinterTree",
+			"order": 30,
+			"data": "000004B9071C071C071D071D"
+		},
+		"1001": {
+			"name": "PlayerDrawn",
+			"order": 31,
+			"data": "000003F20003001404570003000A04560000000504580000000504590000000A0459FFFF0000045A045A045A"
+		},
+		"1000": {
+			"name": "F40 Crash",
+			"order": 32,
+			"data": "000003E90006001004B60006000C044C00000005044D0000000A044E0000000F044FFFFF00000450045004500450"
+		},
+		"1021": {
+			"name": "Drawn",
+			"order": 33,
+			"data": "000003F204570456045804590459045A045A045A"
+		},
+		"1002": {
+			"name": "Silent Crash",
+			"order": 419,
+			"data": "000000800006001004B60006000C044C00000005044D0000000A044E0000000F044FFFFF00000450045004500450"
+		}
+	},
+	"CAR ": {
+		"1000": {
+			"name": "F40",
+			"order": 34,
+			"data": "04B603E803E9002600020009000900060FA0006403E8000000"
+		}
+	},
+	"MENU": {
+		"1000": {
+			"name": "Apple",
+			"order": 35,
+			"data": "03E80000000000000000FFFFFFF901140B41626F75742054686973C990000000012D0000000000"
+		},
+		"1001": {
+			"order": 252,
+			"data": "03E90000000000000000FFFFFFC30446696C65084E65772047616D65004E000008456E642047616D6500450000012D0000000005506175736500500000012D0000000004517569740051000100"
+		},
+		"1002": {
+			"order": 36,
+			"data": "03EA0000000000000000FFFFFFB7074F7074696F6E73065072656673C9004B000009436F6E74726F6C73C900000000012D000000000753636F726573C9005300000C466C7573682053636F72657300000000012D000000000548454C50C90048000000"
+		}
+	},
+	"mctb": {
+		"1000": {
+			"name": "\u0014 menu",
+			"order": 37,
+			"data": "000403E80000000000000000FFFFFFFFFFFF000000000000DDDDDDDDDDDD000203E80001000000000000EEEE00000000000000000000DDDDDDDDDDDD000100800000000000000000FFFFFFFFFFFF000000000000DDDDDDDDDDDD000200800001000000000000DDDD00000000000000000000DDDDDDDDDDDD0001"
+		},
+		"1001": {
+			"name": "File menu",
+			"order": 253,
+			"data": "000803E90006000000000000DDDD00000000DDDD00000000DDDDDDDDDDDD000103E9000200000000000000000000EEEE00000000EEEEDDDDDDDDDDDD000100800003000000000000DDDD00000000DDDD00000000DDDDDDDDDDDD000100800000000000000000FFFFFFFFFFFF000000000000DDDDDDDDDDDD00020080000100000000000000000000EEEE00000000EEEEDDDDDDDDDDDD000103E90000000000000000FFFFFFFFFFFF000000000000DDDDDDDDDDDD000203E9000100000000000000000000EEEE00000000EEEEDDDDDDDDDDDD000103E90004000055550000000055550000000055550000DDDDDDDDDDDD0001"
+		},
+		"1002": {
+			"name": "Options menu",
+			"order": 38,
+			"data": "000503EA0005000000000000EEEE00000000000088880000DDDDDDDDDDDD000103EA0004000000000000000077770000000077770000DDDDDDDDDDDD000100000000000100010001DDDCDDDCDDDC000100010001DDDCDDDCDDDC000203EA0002000000000000333300009999000000000000DDDDDDDDDDDD000103EA0000000000000000DDDCDDDCDDDC000000000000DDDDDDDDDDDD0002"
+		}
+	},
+	"PICT": {
+		"1004": {
+			"order": 40,
+			"file": "PICT/1004.png"
+		},
+		"1010": {
+			"order": 41,
+			"file": "PICT/1010.png"
+		},
+		"1011": {
+			"order": 42,
+			"file": "PICT/1011.png"
+		},
+		"1012": {
+			"order": 43,
+			"file": "PICT/1012.png"
+		},
+		"1013": {
+			"order": 44,
+			"file": "PICT/1013.png"
+		},
+		"2020": {
+			"order": 392,
+			"file": "PICT/2020.png"
+		},
+		"2021": {
+			"order": 393,
+			"file": "PICT/2021.png"
+		},
+		"2022": {
+			"order": 394,
+			"file": "PICT/2022.png"
+		},
+		"1001": {
+			"order": 45,
+			"file": "PICT/1001.png"
+		},
+		"1022": {
+			"flags": 32,
+			"order": 46,
+			"file": "PICT/1022.png"
+		},
+		"2011": {
+			"order": 47,
+			"file": "PICT/2011.png"
+		},
+		"2010": {
+			"order": 48,
+			"file": "PICT/2010.png"
+		},
+		"1020": {
+			"flags": 32,
+			"order": 241,
+			"file": "PICT/1020.png"
+		},
+		"1021": {
+			"flags": 32,
+			"order": 242,
+			"file": "PICT/1021.png"
+		},
+		"1100": {
+			"order": 427,
+			"file": "PICT/1100.png"
+		},
+		"1101": {
+			"order": 420,
+			"file": "PICT/1101.png"
+		},
+		"2030": {
+			"order": 391,
+			"file": "PICT/2030.png"
+		},
+		"2040": {
+			"order": 417,
+			"file": "PICT/2040.png"
+		},
+		"128": {
+			"order": 418,
+			"file": "PICT/128.png"
+		},
+		"1000": {
+			"order": 431,
+			"file": "PICT/1000.png"
+		},
+		"2000": {
+			"order": 39,
+			"file": "PICT/2000.png"
+		},
+		"3020": {
+			"order": 421,
+			"file": "PICT/3020.png"
+		},
+		"3021": {
+			"order": 422,
+			"file": "PICT/3021.png"
+		},
+		"3022": {
+			"order": 423,
+			"file": "PICT/3022.png"
+		}
+	},
+	"SETT": {
+		"1000": {
+			"name": "Game Settings",
+			"order": 49,
+			"data": "026C01E0DC00026C000500000064"
+		}
+	},
+	"ICON": {
+		"400": {
+			"order": 50,
+			"data": "0000000000000000000FF800007FFF0000CFF98000FFFF8000FFFF8000FFFF8000FFFF8000FFFF8000FFFF8000F0078000E0038000E0038000B0068000900480009FFC80008FF880008FF880008FF88000FFFF8000FFFF8000FAAF8000FFFF8000F5578000FFFF8000EAAB8000FFFF8000FFFF800073E7000000000000000000"
+		},
+		"128": {
+			"order": 51,
+			"data": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+		},
+		"129": {
+			"order": 52,
+			"data": "1FFFF80010000C0010000A001000090010000880100008401000082010000FF01000001010E000101110001012E8001012E9F79012E800101110001010E00010100000101000001010000010100000101000001010E0001011100010120800101209EF90120800101110001010E000101000001010000010100000101FFFFFF0"
+		},
+		"140": {
+			"order": 53,
+			"data": "0000000000000000000000000008000000180000003800000078000000FF800001FFE00003FFF00001FFF80000FFF8000079F8000038FC0000187C0000087C0000007C0000007C0000007C0000007C0000007C0000007C0000007C0000007C0000007C0000007C0000007C0000007C0000007C0000007C000000000000000000"
+		},
+		"141": {
+			"order": 54,
+			"data": "000000000000000000000000000010000000180000001C0000001E000001FF000007FF80000FFFC0001FFF80001FFF00001F9E00003F1C00003E1800003E1000003E0000003E0000003E0000003E0000003E0000003E0000003E0000003E0000003E0000003E0000003E0000003E0000003E0000003E00000000000000000000"
+		},
+		"142": {
+			"order": 55,
+			"data": "000000000000000000000000000080000001C0000003E0000007F000000FF800001FFC00003FFE00007FFF000007F0000007F0000007F0000007F0000007F0000007F0000007F0000007F0000007F0000007F000000000000007F0000007F0000007F0000007F000000000000007F0000007F0000007F0000000000000000000"
+		},
+		"143": {
+			"order": 56,
+			"data": "0000000000000000000000000000000000000000000000000000000100000003000000050060000A019800150384002A0382807501C1A02A00E0F4D50270593A01716ECD0138013A009C10CD00DE0033004F001600E7801003F380200713C0400E09E0801C04F0801804788000023D0000001E00000018000000000000000000"
+		},
+		"130": {
+			"order": 57,
+			"data": "0000000000000000000000001015004000AA0A20005554500AAEAAA01573F5502AE03FA015C601D02BC78C2A57FF8F34AFFDEF3A57FBFF3429F7F7FA19FFF7F529FFF7FA1FFFFFFD2FFFFFCA17FFFFCC2FEFFFC81F55FFFC2EAAAFF815557DF42AAAAAF81555557002A82AE80150557400022AA8000000040000000000000000"
+		}
+	},
+	"snd ": {
+		"1001": {
+			"name": "Pchhchvcrtt",
+			"order": 58,
+			"file": "snd/1001.Pchhchvcrtt.aiff"
+		},
+		"1101": {
+			"name": "IIIIHT",
+			"flags": 32,
+			"order": 59,
+			"file": "snd/1101.IIIIHT.aiff"
+		},
+		"1200": {
+			"name": "Dlihitt-Fochhhhhr",
+			"flags": 32,
+			"order": 60,
+			"file": "snd/1200.Dlihitt-Fochhhhhr.aiff"
+		},
+		"1100": {
+			"name": "EEEEHT",
+			"flags": 32,
+			"order": 61,
+			"file": "snd/1100.EEEEHT.aiff"
+		},
+		"1202": {
+			"name": "U\u00e4\u00e4hhhtschh",
+			"flags": 32,
+			"order": 62,
+			"file": "snd/1202.Uhhhtschh.aiff"
+		},
+		"1203": {
+			"name": "AhahahaHahAhA",
+			"flags": 32,
+			"order": 63,
+			"file": "snd/1203.AhahahaHahAhA.aiff"
+		},
+		"1204": {
+			"name": "Buckltttchr",
+			"flags": 32,
+			"order": 64,
+			"file": "snd/1204.Buckltttchr.aiff"
+		},
+		"1103": {
+			"name": "Kchuppup",
+			"flags": 32,
+			"order": 65,
+			"file": "snd/1103.Kchuppup.aiff"
+		},
+		"1206": {
+			"name": "Bck-Rchhhrchpchrc",
+			"flags": 32,
+			"order": 66,
+			"file": "snd/1206.Bck-Rchhhrchpchrc.aiff"
+		},
+		"1110": {
+			"name": "PPpppchRRRCHChchch",
+			"order": 67,
+			"file": "snd/1110.PPpppchRRRCHChchch.aiff"
+		},
+		"1207": {
+			"name": "POLICE caugt ya'",
+			"flags": 32,
+			"order": 68,
+			"file": "snd/1207.POLICEcaugtya.aiff"
+		},
+		"1208": {
+			"name": "HuiHuiHui",
+			"flags": 32,
+			"order": 69,
+			"file": "snd/1208.HuiHuiHui.aiff"
+		},
+		"1104": {
+			"name": "dRRRinggg",
+			"flags": 32,
+			"order": 70,
+			"file": "snd/1104.dRRRinggg.aiff"
+		},
+		"1105": {
+			"name": "Choppppp",
+			"flags": 32,
+			"order": 71,
+			"file": "snd/1105.Choppppp.aiff"
+		},
+		"1106": {
+			"name": "kliumpg",
+			"flags": 32,
+			"order": 72,
+			"file": "snd/1106.kliumpg.aiff"
+		},
+		"128": {
+			"order": 73,
+			"file": "snd/128.aiff"
+		},
+		"1107": {
+			"name": "drlLLLiNnng",
+			"flags": 32,
+			"order": 74,
+			"file": "snd/1107.drlLLLiNnng.aiff"
+		},
+		"1209": {
+			"name": "Kruckcht",
+			"flags": 32,
+			"order": 75,
+			"file": "snd/1209.Kruckcht.aiff"
+		},
+		"1010": {
+			"name": "BLUchuUuuBB",
+			"flags": 32,
+			"order": 76,
+			"file": "snd/1010.BLUchuUuuBB.aiff"
+		},
+		"3000": {
+			"name": "briuiuiccht",
+			"flags": 32,
+			"order": 77,
+			"file": "snd/3000.briuiuiccht.aiff"
+		},
+		"3002": {
+			"name": "Bloptpttt",
+			"flags": 32,
+			"order": 78,
+			"file": "snd/3002.Bloptpttt.aiff"
+		},
+		"1102": {
+			"name": "clocccKK!!",
+			"order": 79,
+			"file": "snd/1102.clocccKK.aiff"
+		},
+		"1000": {
+			"name": "UUuhiihiichch",
+			"flags": 32,
+			"order": 80,
+			"file": "snd/1000.UUuhiihiichch.aiff"
+		},
+		"1020": {
+			"name": "OOOAaaahhhhhmmmm",
+			"flags": 32,
+			"order": 258,
+			"file": "snd/1020.OOOAaaahhhhhmmmm.aiff"
+		},
+		"1500": {
+			"name": "Whhuuuuhuhuhumm",
+			"flags": 32,
+			"order": 259,
+			"file": "snd/1500.Whhuuuuhuhuhumm.aiff"
+		},
+		"2000": {
+			"name": "bRRRRRRRRRRRRRRR",
+			"flags": 20,
+			"order": 260,
+			"file": "snd/2000.bRRRRRRRRRRRRRRR.aiff"
+		},
+		"3001": {
+			"name": "Chruirrrrrrmm",
+			"flags": 32,
+			"order": 398,
+			"file": "snd/3001.Chruirrrrrrmm.aiff"
+		},
+		"1108": {
+			"name": "Kwabochupp",
+			"order": 399,
+			"file": "snd/1108.Kwabochupp.aiff"
+		}
+	},
+	"cicn": {
+		"1206": {
+			"order": 264,
+			"file": "cicn/1206.png"
+		},
+		"1200": {
+			"order": 265,
+			"file": "cicn/1200.png"
+		},
+		"1202": {
+			"order": 266,
+			"file": "cicn/1202.png"
+		},
+		"1203": {
+			"order": 267,
+			"file": "cicn/1203.png"
+		},
+		"1204": {
+			"order": 268,
+			"file": "cicn/1204.png"
+		},
+		"1205": {
+			"order": 269,
+			"file": "cicn/1205.png"
+		},
+		"1207": {
+			"order": 270,
+			"file": "cicn/1207.png"
+		},
+		"1212": {
+			"order": 271,
+			"file": "cicn/1212.png"
+		},
+		"1211": {
+			"order": 272,
+			"file": "cicn/1211.png"
+		},
+		"1210": {
+			"order": 273,
+			"file": "cicn/1210.png"
+		},
+		"1209": {
+			"order": 274,
+			"file": "cicn/1209.png"
+		},
+		"1208": {
+			"order": 275,
+			"file": "cicn/1208.png"
+		},
+		"1100": {
+			"order": 276,
+			"file": "cicn/1100.png"
+		},
+		"1101": {
+			"order": 277,
+			"file": "cicn/1101.png"
+		},
+		"1102": {
+			"order": 278,
+			"file": "cicn/1102.png"
+		},
+		"1103": {
+			"order": 279,
+			"file": "cicn/1103.png"
+		},
+		"1104": {
+			"order": 280,
+			"file": "cicn/1104.png"
+		},
+		"400": {
+			"order": 249,
+			"file": "cicn/400.png"
+		},
+		"1450": {
+			"order": 324,
+			"file": "cicn/1450.png"
+		},
+		"1021": {
+			"order": 281,
+			"file": "cicn/1021.png"
+		},
+		"1022": {
+			"order": 282,
+			"file": "cicn/1022.png"
+		},
+		"1023": {
+			"order": 283,
+			"file": "cicn/1023.png"
+		},
+		"1401": {
+			"order": 311,
+			"file": "cicn/1401.png"
+		},
+		"1402": {
+			"order": 416,
+			"file": "cicn/1402.png"
+		},
+		"1151": {
+			"order": 284,
+			"file": "cicn/1151.png"
+		},
+		"1150": {
+			"order": 285,
+			"file": "cicn/1150.png"
+		},
+		"1403": {
+			"order": 312,
+			"file": "cicn/1403.png"
+		},
+		"1160": {
+			"order": 286,
+			"file": "cicn/1160.png"
+		},
+		"1161": {
+			"order": 287,
+			"file": "cicn/1161.png"
+		},
+		"1162": {
+			"order": 288,
+			"file": "cicn/1162.png"
+		},
+		"1451": {
+			"order": 325,
+			"file": "cicn/1451.png"
+		},
+		"1404": {
+			"order": 81,
+			"file": "cicn/1404.png"
+		},
+		"1166": {
+			"order": 82,
+			"file": "cicn/1166.png"
+		},
+		"1167": {
+			"order": 83,
+			"file": "cicn/1167.png"
+		},
+		"1405": {
+			"order": 313,
+			"file": "cicn/1405.png"
+		},
+		"1430": {
+			"order": 326,
+			"file": "cicn/1430.png"
+		},
+		"1431": {
+			"order": 327,
+			"file": "cicn/1431.png"
+		},
+		"1432": {
+			"order": 328,
+			"file": "cicn/1432.png"
+		},
+		"1433": {
+			"order": 329,
+			"file": "cicn/1433.png"
+		},
+		"1170": {
+			"order": 297,
+			"file": "cicn/1170.png"
+		},
+		"1171": {
+			"order": 298,
+			"file": "cicn/1171.png"
+		},
+		"1172": {
+			"order": 299,
+			"file": "cicn/1172.png"
+		},
+		"1453": {
+			"order": 330,
+			"file": "cicn/1453.png"
+		},
+		"1408": {
+			"order": 314,
+			"file": "cicn/1408.png"
+		},
+		"1454": {
+			"order": 331,
+			"file": "cicn/1454.png"
+		},
+		"1455": {
+			"order": 332,
+			"file": "cicn/1455.png"
+		},
+		"1456": {
+			"order": 333,
+			"file": "cicn/1456.png"
+		},
+		"1457": {
+			"order": 334,
+			"file": "cicn/1457.png"
+		},
+		"1181": {
+			"order": 300,
+			"file": "cicn/1181.png"
+		},
+		"1458": {
+			"order": 335,
+			"file": "cicn/1458.png"
+		},
+		"1185": {
+			"order": 301,
+			"file": "cicn/1185.png"
+		},
+		"1460": {
+			"order": 336,
+			"file": "cicn/1460.png"
+		},
+		"1411": {
+			"order": 315,
+			"file": "cicn/1411.png"
+		},
+		"1190": {
+			"order": 302,
+			"file": "cicn/1190.png"
+		},
+		"1191": {
+			"order": 303,
+			"file": "cicn/1191.png"
+		},
+		"1192": {
+			"order": 304,
+			"file": "cicn/1192.png"
+		},
+		"1412": {
+			"order": 316,
+			"file": "cicn/1412.png"
+		},
+		"1440": {
+			"order": 337,
+			"file": "cicn/1440.png"
+		},
+		"1195": {
+			"order": 305,
+			"file": "cicn/1195.png"
+		},
+		"1197": {
+			"order": 317,
+			"file": "cicn/1197.png"
+		},
+		"1198": {
+			"order": 318,
+			"file": "cicn/1198.png"
+		},
+		"1441": {
+			"order": 338,
+			"file": "cicn/1441.png"
+		},
+		"1442": {
+			"order": 339,
+			"file": "cicn/1442.png"
+		},
+		"1413": {
+			"order": 319,
+			"file": "cicn/1413.png"
+		},
+		"1414": {
+			"order": 320,
+			"file": "cicn/1414.png"
+		},
+		"1800": {
+			"order": 340,
+			"file": "cicn/1800.png"
+		},
+		"1801": {
+			"order": 341,
+			"file": "cicn/1801.png"
+		},
+		"1802": {
+			"order": 342,
+			"file": "cicn/1802.png"
+		},
+		"1803": {
+			"order": 343,
+			"file": "cicn/1803.png"
+		},
+		"1461": {
+			"order": 344,
+			"file": "cicn/1461.png"
+		},
+		"1415": {
+			"order": 323,
+			"file": "cicn/1415.png"
+		},
+		"1416": {
+			"order": 345,
+			"file": "cicn/1416.png"
+		},
+		"129": {
+			"order": 250,
+			"file": "cicn/129.png"
+		},
+		"1462": {
+			"order": 346,
+			"file": "cicn/1462.png"
+		},
+		"1417": {
+			"order": 347,
+			"file": "cicn/1417.png"
+		},
+		"1463": {
+			"order": 348,
+			"file": "cicn/1463.png"
+		},
+		"1108": {
+			"order": 289,
+			"file": "cicn/1108.png"
+		},
+		"1107": {
+			"order": 290,
+			"file": "cicn/1107.png"
+		},
+		"1106": {
+			"order": 292,
+			"file": "cicn/1106.png"
+		},
+		"1418": {
+			"order": 349,
+			"file": "cicn/1418.png"
+		},
+		"1180": {
+			"order": 306,
+			"file": "cicn/1180.png"
+		},
+		"1165": {
+			"order": 293,
+			"file": "cicn/1165.png"
+		},
+		"1464": {
+			"order": 350,
+			"file": "cicn/1464.png"
+		},
+		"1465": {
+			"order": 351,
+			"file": "cicn/1465.png"
+		},
+		"1466": {
+			"order": 352,
+			"file": "cicn/1466.png"
+		},
+		"1467": {
+			"order": 353,
+			"file": "cicn/1467.png"
+		},
+		"1468": {
+			"order": 354,
+			"file": "cicn/1468.png"
+		},
+		"1419": {
+			"order": 355,
+			"file": "cicn/1419.png"
+		},
+		"1469": {
+			"order": 356,
+			"file": "cicn/1469.png"
+		},
+		"1470": {
+			"order": 357,
+			"file": "cicn/1470.png"
+		},
+		"1471": {
+			"order": 358,
+			"file": "cicn/1471.png"
+		},
+		"1420": {
+			"order": 359,
+			"file": "cicn/1420.png"
+		},
+		"1421": {
+			"order": 360,
+			"file": "cicn/1421.png"
+		},
+		"1422": {
+			"order": 361,
+			"file": "cicn/1422.png"
+		},
+		"1805": {
+			"order": 362,
+			"file": "cicn/1805.png"
+		},
+		"1806": {
+			"order": 363,
+			"file": "cicn/1806.png"
+		},
+		"1406": {
+			"order": 321,
+			"file": "cicn/1406.png"
+		},
+		"1423": {
+			"order": 364,
+			"file": "cicn/1423.png"
+		},
+		"1426": {
+			"order": 365,
+			"file": "cicn/1426.png"
+		},
+		"1810": {
+			"order": 366,
+			"file": "cicn/1810.png"
+		},
+		"1811": {
+			"order": 367,
+			"file": "cicn/1811.png"
+		},
+		"1812": {
+			"order": 368,
+			"file": "cicn/1812.png"
+		},
+		"1427": {
+			"order": 369,
+			"file": "cicn/1427.png"
+		},
+		"1815": {
+			"order": 370,
+			"file": "cicn/1815.png"
+		},
+		"1816": {
+			"order": 371,
+			"file": "cicn/1816.png"
+		},
+		"1817": {
+			"order": 372,
+			"file": "cicn/1817.png"
+		},
+		"1031": {
+			"order": 294,
+			"file": "cicn/1031.png"
+		},
+		"1032": {
+			"order": 295,
+			"file": "cicn/1032.png"
+		},
+		"1033": {
+			"order": 296,
+			"file": "cicn/1033.png"
+		},
+		"1424": {
+			"order": 373,
+			"file": "cicn/1424.png"
+		},
+		"1425": {
+			"order": 374,
+			"file": "cicn/1425.png"
+		},
+		"1820": {
+			"order": 375,
+			"file": "cicn/1820.png"
+		},
+		"1821": {
+			"order": 376,
+			"file": "cicn/1821.png"
+		},
+		"1472": {
+			"order": 377,
+			"file": "cicn/1472.png"
+		},
+		"1452": {
+			"order": 378,
+			"file": "cicn/1452.png"
+		},
+		"1201": {
+			"order": 85,
+			"file": "cicn/1201.png"
+		},
+		"1110": {
+			"order": 86,
+			"file": "cicn/1110.png"
+		},
+		"1428": {
+			"order": 379,
+			"file": "cicn/1428.png"
+		},
+		"1473": {
+			"order": 380,
+			"file": "cicn/1473.png"
+		},
+		"1474": {
+			"order": 381,
+			"file": "cicn/1474.png"
+		},
+		"1111": {
+			"order": 87,
+			"file": "cicn/1111.png"
+		},
+		"1112": {
+			"order": 88,
+			"file": "cicn/1112.png"
+		},
+		"1113": {
+			"order": 89,
+			"file": "cicn/1113.png"
+		},
+		"1114": {
+			"order": 90,
+			"file": "cicn/1114.png"
+		},
+		"1434": {
+			"order": 382,
+			"file": "cicn/1434.png"
+		},
+		"1435": {
+			"order": 383,
+			"file": "cicn/1435.png"
+		},
+		"1475": {
+			"order": 384,
+			"file": "cicn/1475.png"
+		},
+		"1476": {
+			"order": 385,
+			"file": "cicn/1476.png"
+		},
+		"1429": {
+			"order": 386,
+			"file": "cicn/1429.png"
+		},
+		"1477": {
+			"order": 387,
+			"file": "cicn/1477.png"
+		},
+		"1000": {
+			"flags": 32,
+			"order": 263,
+			"file": "cicn/1000.png"
+		},
+		"1175": {
+			"order": 307,
+			"file": "cicn/1175.png"
+		},
+		"1176": {
+			"order": 308,
+			"file": "cicn/1176.png"
+		},
+		"1177": {
+			"order": 309,
+			"file": "cicn/1177.png"
+		},
+		"1478": {
+			"order": 388,
+			"file": "cicn/1478.png"
+		},
+		"1409": {
+			"order": 322,
+			"file": "cicn/1409.png"
+		},
+		"130": {
+			"order": 251,
+			"file": "cicn/130.png"
+		},
+		"1436": {
+			"order": 389,
+			"file": "cicn/1436.png"
+		},
+		"1437": {
+			"order": 390,
+			"file": "cicn/1437.png"
+		},
+		"1041": {
+			"flags": 32,
+			"order": 91,
+			"file": "cicn/1041.png"
+		},
+		"1042": {
+			"flags": 32,
+			"order": 92,
+			"file": "cicn/1042.png"
+		},
+		"1043": {
+			"flags": 32,
+			"order": 93,
+			"file": "cicn/1043.png"
+		},
+		"1459": {
+			"order": 84,
+			"file": "cicn/1459.png"
+		},
+		"1105": {
+			"order": 291,
+			"file": "cicn/1105.png"
+		},
+		"1002": {
+			"order": 262,
+			"file": "cicn/1002.png"
+		},
+		"1003": {
+			"order": 424,
+			"file": "cicn/1003.png"
+		}
+	},
+	"DITL": {
+		"1000": {
+			"order": 94,
+			"data": "00020000000000320097004400E304045368697400000000000A0040002D00E0881B416E204572726F7220686173206F636375726564210D49443A5E300000000000000B0008002B0028A0020190"
+		},
+		"1001": {
+			"order": 395,
+			"data": "000200000000002300530037008D040553686974216600000000000A002C001A009C880F4F7574206F66206D656D6F7279210D0000000000000B0006002B0026A0020190"
+		},
+		"1002": {
+			"order": 95,
+			"data": "000300000000005A012C006E016604045175697400000000000A000A002A002AA002019000000000000A00320052017088A74E6F7420656E6F75676820667265652053797374656D206D656D6F727920746F20616C6C6F6361746520536F756E644368616E6E656C732E20547279207175697474696E6720736F6D65206170706C69636174696F6E73206F722061737369676E204275726E6720527562626572204C455353206D656D6F727920696E207468652046696E646572732047657420496E666F20626F782C207468656E2074727920616761696E2E0000000000005A0064006D011A0416436F6E74696E756520776974686F757420536F756E64"
+		},
+		"2001": {
+			"order": 243,
+			"data": "000C0000000000AA008C00BE00C604024F4B0000000000AA003C00BE0076040643616E63656C000000000043000A0063002A400203F2000000000043006E0063008E400203F3000000000078000A0098002A400203F4000000000078006E0098008E400203F500000000011800280128007390000000000000000000003A00D4C00203FC00000000004D0032005D006B88025E3000000000004D0096005D00D488025E3100000000008200320092006888025E320000000000820096009200D388025E330000000000A0000000A100DCA0020080"
+		},
+		"1003": {
+			"order": 96,
+			"data": "000300000000005000AA006400E4040359657371000000000050005A0064009704024E6F00000000000A000A002A002AA002019000000000000A0032003E00E98839596F75206172652061626F757420746F2063616E63656C20612067616D6520696E2070726F67726573732E2041726520796F7520737572653F00"
+		},
+		"10000": {
+			"order": 97,
+			"data": "000200000000005A00AA006E00E404024F4B00000000005A0064006E009E0401324B00000000000A0014004E00E988025E30"
+		},
+		"1004": {
+			"order": 257,
+			"data": "000300000000004600BE005A00F80403506179270000000000460064005A00B20409446F6E2774207061796F00000000000A003C003800FB882D474F544348412121202050617920612070656E616C7479206F662035303020706F696E7473206F7220646965210000000000000A000A002A002AC00203EC"
+		},
+		"2002": {
+			"order": 98,
+			"data": "00040000000000460050005A008A04024F4B000000000046000A005A0044040643616E63656C000000000028001E00380078100000000000000A000A001B0093880C43686F7365204C6576656C3A000000000064000A008700948824486967682053636F7265732077696C6C2062650D2020202020202064697361626C65642E"
+		},
+		"1005": {
+			"order": 100,
+			"data": "00020000000000460082005A00DB040C49276C6C20627579206F6E6500000000000A000A002A002AA002019000000000000A0032004500E18845546F20706C6179204275726E696E672052756262657220796F75207265717569726520612073637265656E206174206C656173742036343020706978656C7320776964652E00"
+		},
+		"1006": {
+			"order": 101,
+			"data": "000300000000003200AA004500EC04045175697400000000000A000A002A002AA002019000000000000A0032002F00F4882A53797374656D20372E30206F7220686967686572206973207265616C6C79207265636F6D656E6465642100000000003200500046009F0408436F6E74696E7565"
+		},
+		"1007": {
+			"order": 102,
+			"data": "000200000000006400D20078010C04024F4B00000000000A000A002A002AA002019000000000000A00320060011D889C496E206F7264657220746F20706C617920736F756E6473204275726E696E6720527562626572206E656564732061206D61632063617061626C65206F66206D6978696E67207365766572616C20736F756E64206368616E6E656C732028692E652E206571756970706564207769746820616E204153432D43686970292E20536F756E642077696C6C2062652064697361626C65642E20536F7272792E"
+		},
+		"2004": {
+			"order": 103,
+			"data": "00150000000000FA00F0011E01450405436F6F6C210000000000002F0010003F00FB88000000000000430010005300FB88000000000000570010006700FB880000000000006B0010007B00FB880000000000007F0010008F00FB8800000000000093001000A300FB88000000000000A7001000B700FB88000000000000BB001000CB00FB88000000000000CF001000DF00FB88000000000000E3001000F300FB880000000000002F0100003F014B880000000000004301000053014B880000000000005701000067014B880000000000006B0100007B014B880000000000007F0100008F014B8800000000000093010000A3014B88000000000000A7010000B7014B88000000000000BB010000CB014B88000000000000CF010000DF014B88000000000000E3010000F3014B8800000000000000003E002E0126C00203FE"
+		},
+		"2005": {
+			"order": 104,
+			"data": "00010000000000A5012900B9016304024F4B0000000000A500E700B90121040448656C70"
+		},
+		"2006": {
+			"order": 105,
+			"data": "000300000000005A00B4006E01080409546861742773206D653200000000003C0032004C0104100F53706565647920476F6E7A616C65736500000000000A000A002A002AA002008200000000000A00320031010D883E436F6F6C2120596F75206D61646520697420746F2074686520546F702054656E206C6973742E20506C6561736520656E74657220796F7572206E616D652E"
+		},
+		"1009": {
+			"order": 106,
+			"data": "000300000000003C00DC0050011604024E4F00000000003C008C005000C604035945532000000000000A000A002A002AA002019000000000000A003200340121884241726520796F75207375726520796F752077616E7420746F20657261736520414C4C20656E7472797320746F2074686520486967682053636F7265206C6973743F20"
+		},
+		"1010": {
+			"order": 107,
+			"data": "000200000000005A00BE006E00F804024F4B00000000000A000A002A002AA002019000000000000A0032004D00FD886A596F7520776F6E27742062652061626C6520746F2073746F726520796F757220507265666572656E636573206F722020486967682053636F72657320746F206469736B2C206265636175736520746865206469736B2069732077726974652070726F7465637465642E20"
+		},
+		"1008": {
+			"order": 245,
+			"data": "000200000000004600B4005A00EE04062D736967682D00000000000A000A002A002AA002019000000000000A0032003B00F08842546F20706C6179204275726E696E672052756262657220796F75206E656564206174206C6561737420342D426974202831362920636F6C6F72732E20536F7272792E"
+		},
+		"1011": {
+			"order": 409,
+			"data": "000200000000005A0096006E00DF0408436F6E74696E756500000000000A000A002A002AA002019000000000000A0032004D00EC88684E6F74652074686174204275726E696E672052756262657220776F6E27742072756E20617420616E7920726561736F6E61626C65207370656564206F6E2036383033302D6261736564206F72206561726C69657220204D6163206D6F64656C732E20536F7272792E"
+		},
+		"2000": {
+			"name": "PrefNew(2000)",
+			"order": 99,
+			"data": "000A000000000090008C00A400C604024F4B000000000090004600A40080040643616E63656C000000000032005B004400C5050C426C616E6B2053637265656E0000000000000000002B00E0C00203FD000000000033000900530029A0020081000000000046005B005800C5050854657874757265730000000000680005007D00550409436F6E74726F6C73C90000000000005A005B006A00BF050D536F756E642045666665637473000000000000820000008300DFA00200800000000000D2004600E400D8050F556E6C696D697465642053706565640000000000006E005B008000DB050D456E67696E6520536F756E647300"
+		}
+	},
+	"DLOG": {
+		"2000": {
+			"name": "Prefs",
+			"order": 108,
+			"data": "0048005000F7012F0001010001000000000007D00000680A"
+		},
+		"2001": {
+			"name": "Controls",
+			"order": 402,
+			"data": "005C00680123013C0001010001000000000007D10000680A"
+		},
+		"2002": {
+			"name": "Levelcheat",
+			"order": 403,
+			"data": "006E00A600FB013B0001010001000000000007D20000680A"
+		},
+		"2004": {
+			"name": "HighScores",
+			"order": 109,
+			"data": "00780092019C01E60001010001000000000007D40020680A"
+		},
+		"2005": {
+			"name": "ABOUT",
+			"order": 110,
+			"data": "005C005A011A01C20001010000000000000007D500A9680A"
+		},
+		"2006": {
+			"name": "HighScore!",
+			"order": 111,
+			"data": "0028002800A401390001010001000000000007D60000680A"
+		}
+	},
+	"ODEF": {
+		"1000": {
+			"name": "Puddle",
+			"order": 112,
+			"data": "03EA00000000001907D14000000000000000000000000000"
+		},
+		"1001": {
+			"name": "Barrel",
+			"order": 113,
+			"data": "057900000000000000000900FFEFFFF607D0001800000014"
+		},
+		"1002": {
+			"name": "Mine",
+			"order": 114,
+			"data": "057A00000000000007D0C000FFF3FFF30000000000000000"
+		},
+		"1003": {
+			"name": "Rudolph",
+			"order": 115,
+			"data": "057B00000000000F07D24000000000000000000000000032"
+		},
+		"1004": {
+			"name": "Car",
+			"order": 116,
+			"data": "05AAFFF50000000000001D00000000000BB8000000000050"
+		},
+		"1005": {
+			"name": "BullDozer",
+			"order": 117,
+			"data": "05AB0000FFFA000000000C00000000002710000000000050"
+		},
+		"1006": {
+			"name": "Construction Truck",
+			"order": 118,
+			"data": "05AC00070000000000001D00FFF2FFFF1B58000000000064"
+		},
+		"1007": {
+			"name": "Flagman",
+			"order": 119,
+			"data": "057C00000000000007D34000000000000000000000000032"
+		},
+		"1008": {
+			"name": "Schotter",
+			"order": 120,
+			"data": "057D00000000002800000200000000000000000000120000"
+		},
+		"1100": {
+			"name": "SpeedLimit",
+			"order": 121,
+			"data": "059600000000000C07D54000FFE9FFFC000000000000000A"
+		},
+		"1101": {
+			"name": "Route 66",
+			"order": 122,
+			"data": "059700000000000C07D54000FFE9FFFC000000000000000A"
+		},
+		"1102": {
+			"name": "Traffic Light",
+			"order": 123,
+			"data": "059800000000000C07D54000FFEBFFFF000000000000000A"
+		},
+		"1103": {
+			"name": "InterState",
+			"order": 124,
+			"data": "059900000000000C07D54000FFE9FFFC000000000000000A"
+		},
+		"1009": {
+			"name": "Jump",
+			"order": 125,
+			"data": "057E00000000000000000200001F001900000000003C0000"
+		},
+		"1010": {
+			"name": "Van",
+			"order": 126,
+			"data": "05AE000C0000000000001D00FFF1FFFD0FA0001100000064"
+		},
+		"1011": {
+			"name": "Caddilac",
+			"order": 127,
+			"data": "05AF000A0000000000001D00000000080ED8001900000096"
+		},
+		"1012": {
+			"name": "Car2",
+			"order": 128,
+			"data": "05B0FFF10000000000001D00FFF200050E7400000000003C"
+		},
+		"1013": {
+			"name": "Truck",
+			"order": 129,
+			"data": "05B100090000000000001D00FFF700121F400000000000FA"
+		},
+		"1014": {
+			"name": "Palm",
+			"order": 130,
+			"data": "058000000000001E07D74000FFF1FFF6000000020000000A"
+		},
+		"1015": {
+			"name": "OLDTIMER",
+			"order": 131,
+			"data": "05B2FFF90000000000001D00FFEEFFF90AF000000000001E"
+		},
+		"1016": {
+			"name": "Jump2",
+			"order": 132,
+			"data": "058100000000000000000200001F001900000000003C0000"
+		},
+		"1017": {
+			"name": "Bus",
+			"order": 133,
+			"data": "05B3FFF70000000000001D00FFF60014232800000000012C"
+		},
+		"1018": {
+			"name": "Hole",
+			"order": 134,
+			"data": "04A100000000000000000000000000000000000000000000"
+		},
+		"1019": {
+			"name": "Small Car",
+			"order": 135,
+			"data": "05B4000A0000000000001D00FFF1FFF70B54000000000032"
+		},
+		"1020": {
+			"name": "Bike",
+			"order": 136,
+			"data": "05830001FFFA000007D94000FFF4FFF201F4000000000032"
+		},
+		"1021": {
+			"name": "Rails",
+			"order": 137,
+			"data": "0584000000000000000000000260FFEC0000000000000000"
+		},
+		"1022": {
+			"name": "Train",
+			"order": 138,
+			"data": "05A00000000A000007DA4000001CFFF6003C000000000064"
+		},
+		"1023": {
+			"name": "Train/End",
+			"order": 139,
+			"data": "05A10000000A000007DA4000001CFFF6003C000000000064"
+		},
+		"1024": {
+			"name": "Wagon",
+			"order": 140,
+			"data": "05A20000000A000007DA4000001CFFF6003C000000000041"
+		},
+		"1025": {
+			"name": "SchrankeL",
+			"order": 141,
+			"data": "058500000000001E07DB40000000FFF4000000000000000F"
+		},
+		"1026": {
+			"name": "SchrankeR",
+			"order": 142,
+			"data": "058600000000001E07DB40000000FFF4000000000000000F"
+		},
+		"1027": {
+			"name": "Trecker",
+			"order": 143,
+			"data": "05B5FFFB0000000000001D00FFF3FFFE145000000000006E"
+		},
+		"1028": {
+			"name": "TreeA",
+			"order": 144,
+			"data": "058800000000001E07D74000FFECFFFC000000020000000A"
+		},
+		"1029": {
+			"name": "TreeB",
+			"order": 145,
+			"data": "058700000000001E07D74000FFF2FFF80000000200000005"
+		},
+		"1032": {
+			"name": "Missile",
+			"order": 411,
+			"data": "05890000FFEC000007D0C000FFF0FFE80000000000000000"
+		},
+		"1033": {
+			"name": "Limosine",
+			"order": 146,
+			"data": "05B7FFF40000000000001D00FFF40016100400000000008C"
+		},
+		"1034": {
+			"name": "Toll Hut",
+			"order": 147,
+			"data": "058A00000000000000008800FFFBFFFF0A5A000000000000"
+		},
+		"1035": {
+			"name": "Car3",
+			"order": 148,
+			"data": "05B8FFF40000000000001D00FFEFFFFC0DAC00000000003C"
+		},
+		"1036": {
+			"name": "Jeep",
+			"order": 149,
+			"data": "05B900090000000000001D00FFF3FFFD1004001900000078"
+		},
+		"1037": {
+			"name": "Unser Auto!!!",
+			"order": 150,
+			"data": "05BAFFF80000000000001D00FFF100020D4800000000004A"
+		},
+		"1038": {
+			"name": "E-Car",
+			"order": 151,
+			"data": "05BB000A0000000000001D00FFF2FFFC07D0000000000046"
+		},
+		"1039": {
+			"name": "VW",
+			"order": 152,
+			"data": "05BCFFF30000000000001D00FFF100020BB800000000005A"
+		},
+		"1105": {
+			"name": "BauSperre",
+			"order": 153,
+			"data": "058B00000000000007D64000FFFAFFEF04B000000000001E"
+		},
+		"1040": {
+			"name": "Bagger",
+			"order": 154,
+			"data": "05AD00000001000000000C000000FFF525E4000000000000"
+		},
+		"1042": {
+			"name": "Police",
+			"order": 155,
+			"data": "05BE00140000000000015800FFF100021194000000000000"
+		},
+		"1043": {
+			"name": "Small Car2",
+			"order": 156,
+			"data": "05BF000B0000000000001D00FFEFFFF70BEA00000000003C"
+		},
+		"1044": {
+			"name": "FINISH",
+			"order": 157,
+			"data": "058C00000000000000000000002000000000000000000000"
+		},
+		"1045": {
+			"name": "FINISH Lines",
+			"order": 158,
+			"data": "058D00000000000000000000004000000000000000000000"
+		},
+		"1046": {
+			"name": "Cactus",
+			"order": 159,
+			"data": "058E00000000000007DC4000FFF7000D0000000000000019"
+		},
+		"1047": {
+			"name": "Hill",
+			"order": 160,
+			"data": "058F000000000008000000000000FFEF0000000000000000"
+		},
+		"1049": {
+			"name": "L Sign",
+			"order": 161,
+			"data": "059100000000001907DD4000FFF90000000000000000002D"
+		},
+		"1050": {
+			"name": "Snowman",
+			"order": 162,
+			"data": "059300000000001507DE4000FFEEFFFA0000000000000032"
+		},
+		"1052": {
+			"name": "Wintertree",
+			"order": 163,
+			"data": "059000000000001807DF4000FFF2FFF80000000000000014"
+		},
+		"1053": {
+			"name": "Gray Car",
+			"order": 164,
+			"data": "05C0FFF40000000000001D00FFF20000139C000000000050"
+		},
+		"1054": {
+			"name": "Bridge",
+			"order": 165,
+			"data": "059400000000000000008000000700200000000000000000"
+		},
+		"1056": {
+			"name": "Car4",
+			"order": 166,
+			"data": "05C2FFF40000000000001D00FFEFFFFA0829000000000023"
+		},
+		"1055": {
+			"name": "Speedboat",
+			"order": 167,
+			"data": "05C10001FFF40000000082000020FFFC0000000000500320"
+		},
+		"1106": {
+			"name": "Left",
+			"order": 168,
+			"data": "059B00000000000007D60000FFEBFFF500BE00190000000A"
+		},
+		"1107": {
+			"name": "Right",
+			"order": 169,
+			"data": "059A00000000000007D60000FFEBFFF500BE00190000000A"
+		},
+		"1057": {
+			"name": "Dark car",
+			"order": 170,
+			"data": "05C400090000000000001D00FFF2FFF90EA6000000000064"
+		},
+		"5000": {
+			"name": "FINISH 4",
+			"order": 171,
+			"data": "058D00000000000000000000009E00000000000000000000"
+		},
+		"5001": {
+			"name": "FINISH 3",
+			"order": 172,
+			"data": "059500000000000000000000FFFA00080000000000000000"
+		},
+		"1058": {
+			"name": "Dark car dwn",
+			"order": 173,
+			"data": "05C5FFF90000000000001D00FFF4FFFE0FA0000000000064"
+		},
+		"1041": {
+			"name": "RedCar",
+			"order": 174,
+			"data": "05BD000E0000000000001D00FFEFFFFC0BB8000000000050"
+		},
+		"1030": {
+			"name": "Tank(drive)",
+			"order": 175,
+			"data": "05B60000FFF9000000000C00FFFCFFF32710000000000000"
+		},
+		"1031": {
+			"name": "Tank(attack)",
+			"order": 176,
+			"data": "05B600000000000000000000FFFCFFF34A38000000000000"
+		},
+		"1059": {
+			"name": "Military He\u0000\u0000",
+			"order": 177,
+			"data": "05C6000C00040000000000000015001E0000000000000000"
+		},
+		"1060": {
+			"name": "Cop Heli",
+			"order": 178,
+			"data": "05C3000C00000000000140000015001E0000000000000000"
+		},
+		"1051": {
+			"name": "R sign",
+			"order": 179,
+			"data": "059200000000001907DD4000FFF90000000000000000002D"
+		},
+		"5002": {
+			"name": "FINISH 5",
+			"order": 235,
+			"data": "059D00000000000000000000009B00000000000000000000"
+		},
+		"5003": {
+			"name": "FINISH 5A",
+			"order": 236,
+			"data": "059C00000000000000000000002000000000000000000000"
+		},
+		"10000": {
+			"name": "Terminator",
+			"order": 256,
+			"data": "000000000000000000000000000000000000000000000000"
+		},
+		"1104": {
+			"name": "BauSperre",
+			"order": 400,
+			"data": "058B00000000000007D64000FFFAFFEF04B000000000001E"
+		}
+	},
+	"vers": {
+		"1": {
+			"junk": 21010576,
+			"order": 433,
+			"data": "0101800000000C312E30206279204A6F6E61731B312E303120A931393936204A6F6E617320456368746572686F6666"
+		},
+		"2": {
+			"junk": 21010572,
+			"order": 428,
+			"data": "000020000000000B2A5368617265776172652A"
+		}
+	},
+	"WIND": {
+		"1000": {
+			"name": "Shell Window",
+			"order": 180,
+			"data": "001E0000014A0200000001000000000000000E4275726E696E672052756262657262280A"
+		},
+		"1001": {
+			"order": 181,
+			"data": "00000000FFFFFFFF000201000000000000000090680A"
+		},
+		"1002": {
+			"order": 432,
+			"data": "0000000001E0026C000401000000000000000E4275726E696E67205275626265724E680A"
+		}
+	},
+	"wctb": {
+		"1001": {
+			"order": 182,
+			"data": "000000000000000400000000000000000001000000000000000200000000000000030000000000000004FFFFFFFFFFFF"
+		},
+		"1000": {
+			"name": "Shell Window",
+			"order": 183,
+			"data": "000000000000000400000000000000000001000000000000000200000000000000030000000000000004FFFFFFFFFFFF"
+		},
+		"128": {
+			"order": 410,
+			"data": "000000000000000400000000000000000001000000000000000200000000000000030000000000000004FFFFFFFFFFFF"
+		}
+	},
+	"STR#": {
+		"2000": {
+			"name": "Game Strings",
+			"order": 254,
+			"obj": [
+				"Score:",
+				"Lives:",
+				"Game Over",
+				"Well Done",
+				"Time:",
+				"Level",
+				"Time is up"
+			]
+		},
+		"2001": {
+			"name": "LeveDone Strings",
+			"order": 261,
+			"obj": [
+				"Stage 00 completed",
+				"",
+				"Score:",
+				"Bonus:",
+				"TOTAL:"
+			]
+		},
+		"3000": {
+			"name": "Keys",
+			"order": 184,
+			"obj": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"0x0A",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Return",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"Tab",
+				"Space",
+				"",
+				"Delete",
+				"0x34",
+				"Esc",
+				"0x35",
+				"Cmd",
+				"Shift",
+				"Caps",
+				"Option",
+				"Ctrl",
+				"0x3c",
+				"0x3d",
+				"0x3e",
+				"0x3f",
+				"0x40",
+				"KP .",
+				"0x42",
+				"KP *",
+				"0x44",
+				"KP +",
+				"0x46",
+				"Clear",
+				"0x48",
+				"0x49",
+				"0x4a",
+				"KP /",
+				"Enter",
+				"0x4d",
+				"KP -",
+				"0x4f",
+				"0x50",
+				"KP =",
+				"KP 0",
+				"KP 1",
+				"KP 2",
+				"KP 3",
+				"KP 4",
+				"KP 5",
+				"KP 6",
+				"KP 7",
+				"0x5a",
+				"KP 8",
+				"KP 9",
+				"0x5d",
+				"0x5e",
+				"0x5f",
+				"F5",
+				"F6",
+				"F7",
+				"F3",
+				"F8",
+				"F9",
+				"0x66",
+				"F11",
+				"0x68",
+				"F13",
+				"0x6a",
+				"F14",
+				"0x6c",
+				"F10",
+				"0x6e",
+				"F12",
+				"0x70",
+				"F15",
+				"Help",
+				"Home",
+				"Page Up",
+				"Forw Del",
+				"F4",
+				"End",
+				"F2",
+				"Page Dwn",
+				"F1",
+				"Left",
+				"Right",
+				"Down",
+				"Up",
+				"Power"
+			]
+		}
+	},
+	"ALRT": {
+		"1000": {
+			"name": "Error",
+			"order": 185,
+			"data": "00280028007D011703E85556700A"
+		},
+		"1001": {
+			"name": "MemLow",
+			"order": 186,
+			"data": "00280028006A00CA03E95555700A"
+		},
+		"1002": {
+			"name": "SoundMem",
+			"order": 187,
+			"data": "0028002800A9019F03EA5555300A"
+		},
+		"1003": {
+			"name": "GameStop?",
+			"order": 188,
+			"data": "002800280095011D03EB4444700A"
+		},
+		"1004": {
+			"name": "POLICE",
+			"order": 189,
+			"data": "00280028008C012D03EC4444A80A"
+		},
+		"1005": {
+			"name": "ScreenToSmall",
+			"order": 190,
+			"data": "002800280092011B03ED5555300A"
+		},
+		"1006": {
+			"name": "OldSytem",
+			"order": 191,
+			"data": "00280028007A012103EE5555300A"
+		},
+		"1007": {
+			"name": "NoASC",
+			"order": 404,
+			"data": "0028002800B5014C03EF5555300A"
+		},
+		"1009": {
+			"name": "FlushSure?",
+			"order": 405,
+			"data": "002800280083014E03F1DDD5700A"
+		},
+		"1010": {
+			"name": "wPrErr",
+			"order": 406,
+			"data": "0028002800A1012E03F20005700A"
+		},
+		"1008": {
+			"name": "BWb\u00f6rg",
+			"order": 407,
+			"data": "00280028008F011A03F05555300A"
+		},
+		"1011": {
+			"name": "SlowMac",
+			"order": 408,
+			"data": "0028002800A6011E03F35555300A"
+		}
+	},
+	"actb": {
+		"1004": {
+			"name": "POLICE",
+			"order": 192,
+			"data": "0000000000000004000000000004FFFE0001000000000000000200000000000000030000000000000004FFFFFFFFFFFF"
+		}
+	},
+	"icl8": {
+		"128": {
+			"order": 193,
+			"file": "icl8/128.png"
+		}
+	},
+	"ICN#": {
+		"128": {
+			"order": 194,
+			"file": "ICN%23/128.png"
+		}
+	},
+	"BNDL": {
+		"128": {
+			"order": 195,
+			"data": "528C8D8E000000014652454600000000008049434E23000000000080"
+		}
+	},
+	"R\u00e5\u00e7\u00e9": {
+		"0": {
+			"name": "Owner resource",
+			"order": 196,
+			"data": "09A96279204A6F6E6173"
+		}
+	},
+	"FREF": {
+		"128": {
+			"order": 197,
+			"data": "4150504C000000"
+		}
+	},
+	"CTLS": {
+		"1000": {
+			"name": "Controls",
+			"order": 198,
+			"data": "005C005800570059"
+		}
+	},
+	"STR ": {
+		"11000": {
+			"order": 199,
+			"obj": "KP 4"
+		},
+		"11001": {
+			"order": 200,
+			"obj": "KP 6"
+		},
+		"11002": {
+			"order": 201,
+			"obj": "KP 8"
+		},
+		"11003": {
+			"order": 202,
+			"obj": "KP 5"
+		},
+		"1000": {
+			"order": 426,
+			"obj": "BR is Shareware!!! See 'About this' in the \u0014-Menu for further details."
+		}
+	},
+	"clut": {
+		"1008": {
+			"name": "8Bit",
+			"order": 203,
+			"data": "00000000000000FF0000FFFFFFFFFFFF0001FFFFFFFFCCCC0002FFFFFFFF99990003FFFFFFFF66660004FFFFFFFF33330005FFFFFFFF00000006FFFFCCCCFFFF0007FFFFCCCCCCCC0008FFFFCCCC99990009FFFFCCCC6666000AFFFFCCCC3333000BFFFFCCCC0000000CFFFF9999FFFF000DFFFF9999CCCC000EFFFF99999999000FFFFF999966660010FFFF999933330011FFFF999900000012FFFF6666FFFF0013FFFF6666CCCC0014FFFF666699990015FFFF666666660016FFFF666633330017FFFF666600000018FFFF3333FFFF0019FFFF3333CCCC001AFFFF33339999001BFFFF33336666001CFFFF33333333001DFFFF33330000001EFFFF0000FFFF001FFFFF0000CCCC0020FFFF000099990021FFFF000066660022FFFF000033330023FFFF000000000024CCCCFFFFFFFF0025CCCCFFFFCCCC0026CCCCFFFF99990027CCCCFFFF66660028CCCCFFFF33330029CCCCFFFF0000002ACCCCCCCCFFFF002BCCCCCCCCCCCC002CCCCCCCCC9999002DCCCCCCCC6666002ECCCCCCCC3333002FCCCCCCCC00000030CCCC9999FFFF0031CCCC9999CCCC0032CCCC999999990033CCCC999966660034CCCC999933330035CCCC999900000036CCCC6666FFFF0037CCCC6666CCCC0038CCCC666699990039CCCC66666666003ACCCC66663333003BCCCC66660000003CCCCC3333FFFF003DCCCC3333CCCC003ECCCC33339999003FCCCC333366660040CCCC333333330041CCCC333300000042CCCC0000FFFF0043CCCC0000CCCC0044CCCC000099990045CCCC000066660046CCCC000033330047CCCC0000000000489999FFFFFFFF00499999FFFFCCCC004A9999FFFF9999004B9999FFFF6666004C9999FFFF3333004D9999FFFF0000004E9999CCCCFFFF004F9999CCCCCCCC00509999CCCC999900519999CCCC666600529999CCCC333300539999CCCC0000005499999999FFFF005599999999CCCC0056999999999999005799999999666600589999999933330059999999990000005A99996666FFFF005B99996666CCCC005C999966669999005D999966666666005E999966663333005F999966660000006099993333FFFF006199993333CCCC0062999933339999006399993333666600649999333333330065999933330000006699990000FFFF006799990000CCCC00689999000099990069999900006666006A999900003333006B999900000000006C6666FFFFFFFF006D6666FFFFCCCC006E6666FFFF9999006F6666FFFF666600706666FFFF333300716666FFFF000000726666CCCCFFFF00736666CCCCCCCC00746666CCCC999900756666CCCC666600766666CCCC333300776666CCCC0000007866669999FFFF007966669999CCCC007A666699999999007B666699996666007C666699993333007D666699990000007E66666666FFFF007F66666666CCCC0080666666669999008166666666666600826666666633330083666666660000008466663333FFFF008566663333CCCC0086666633339999008766663333666600886666333333330089666633330000008A66660000FFFF008B66660000CCCC008C666600009999008D666600006666008E666600003333008F66660000000000903333FFFFFFFF00913333FFFFCCCC00923333FFFF999900933333FFFF666600943333FFFF333300953333FFFF000000963333CCCCFFFF00973333CCCCCCCC00983333CCCC999900993333CCCC6666009A3333CCCC3333009B3333CCCC0000009C33339999FFFF009D33339999CCCC009E333399999999009F33339999666600A033339999333300A133339999000000A233336666FFFF00A333336666CCCC00A433336666999900A533336666666600A633336666333300A733336666000000A833333333FFFF00A933333333CCCC00AA33333333999900AB33333333666600AC33333333333300AD33333333000000AE33330000FFFF00AF33330000CCCC00B033330000999900B133330000666600B233330000333300B333330000000000B40000FFFFFFFF00B50000FFFFCCCC00B60000FFFF999900B70000FFFF666600B80000FFFF333300B90000FFFF000000BA0000CCCCFFFF00BB0000CCCCCCCC00BC0000CCCC999900BD0000CCCC666600BE0000CCCC333300BF0000CCCC000000C000009999FFFF00C100009999CCCC00C200009999999900C300009999666600C400009999333300C500009999000000C600006666FFFF00C700006666CCCC00C800006666999900C900006666666600CA00006666333300CB00006666000000CC00003333FFFF00CD00003333CCCC00CE00003333999900CF00003333666600D000003333333300D100003333000000D200000000FFFF00D300000000CCCC00D400000000999900D500000000666600D600000000333300D7EEEE0000000000D8DDDD0000000000D9BBBB0000000000DAAAAA0000000000DB88880000000000DC77770000000000DD55550000000000DE44440000000000DF22220000000000E011110000000000E10000EEEE000000E20000DDDD000000E30000BBBB000000E40000AAAA000000E500008888000000E600007777000000E700005555000000E800004444000000E900002222000000EA00001111000000EB00000000EEEE00EC00000000DDDD00ED00000000BBBB00EE00000000AAAA00EF00000000888800F000000000777700F100000000555500F200000000444400F300000000222200F400000000111100F5EEEEEEEEEEEE00F6DDDDDDDDDDDD00F7BBBBBBBBBBBB00F8AAAAAAAAAAAA00F988888888888800FA77777777777700FB55555555555500FC44444444444400FD22222222222200FE11111111111100FF000000000000"
+		},
+		"1004": {
+			"name": "4Bit",
+			"order": 204,
+			"data": "000000000000000F0000FFFFFFFFFFFF0001EEEEEEEEEEEE0002DDDDDDDDDDDD0003CCCCCCCCCCCC0004BBBBBBBBBBBB0005AAAAAAAAAAAA0006999999999999000788888888888800087777777777770009666666666666000A555555555555000B444444444444000C333333333333000D222222222222000E111111111111000F000000000000"
+		},
+		"1001": {
+			"order": 205,
+			"data": "00000001000100010000FFFFFFFFFFFF0001000000000000"
+		},
+		"1002": {
+			"order": 206,
+			"data": "00000000000000030000FFFFFFFFFFFF0001ACACACACACAC00025555555555550003000000000000"
+		}
+	},
+	"icl4": {
+		"128": {
+			"order": 207,
+			"file": "icl4/128.png"
+		}
+	},
+	"dctb": {
+		"2004": {
+			"name": "HighScores",
+			"order": 208,
+			"data": "000000000000000400008888888888880001000000000000000200000000000000030000000000000004FFFFFFFFFFFF"
+		}
+	},
+	"HIGH": {
+		"128": {
+			"order": 209,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"129": {
+			"order": 210,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"130": {
+			"order": 211,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"131": {
+			"order": 212,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"132": {
+			"order": 213,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"133": {
+			"order": 214,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"134": {
+			"order": 215,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"135": {
+			"order": 216,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"136": {
+			"order": 217,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"137": {
+			"order": 218,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"138": {
+			"order": 219,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		},
+		"1000": {
+			"order": 220,
+			"data": "000000000F53706565647920476F6E7A616C6573"
+		}
+	},
+	"ROAD": {
+		"1000": {
+			"name": "Paved Road/Medow",
+			"order": 221,
+			"data": "000003F200000000CA34CA34CA3400006000B00020000000000000000000000000000000A0"
+		},
+		"1001": {
+			"name": "Dessert",
+			"order": 222,
+			"data": "000003FC00000000DDA5A05500F70000890B4999003D000000000000000000000000000080"
+		},
+		"1002": {
+			"name": "Snowwww",
+			"order": 223,
+			"data": "0000040600000000DAE6DAE6DAE60000EF4DEF4DEF4D000000000000000000000000000080"
+		},
+		"1003": {
+			"name": "Water",
+			"order": 224,
+			"data": "0000041000000000CA34CA34CA34000019DD0F6CDE08000000000000000000000000000040"
+		},
+		"1004": {
+			"name": "Tunnel",
+			"order": 225,
+			"data": "0000041A0000000000000000000000000000000000000000000000000000000000000000B0"
+		},
+		"1006": {
+			"name": "Moutains",
+			"order": 226,
+			"data": "0000042400000000CA34CA34CA3400003C463DE23C460000000000000000000000000000A0"
+		},
+		"1007": {
+			"name": "unpaved",
+			"order": 227,
+			"data": "000003F800000000DDA5A05500F700005800A00020000000000000000000000000000000A0"
+		}
+	},
+	"CCOL": {
+		"1000": {
+			"order": 244,
+			"data": "F6F6F6F6F6F6F6F6"
+		},
+		"1002": {
+			"order": 228,
+			"data": "F8F8F8F8F8F8F8F8"
+		},
+		"1001": {
+			"order": 229,
+			"data": "3333333333333333"
+		},
+		"1004": {
+			"order": 230,
+			"data": "FFFFFFFFFFFFFFFF"
+		},
+		"1003": {
+			"order": 231,
+			"data": "F6F6F6F6F6F6F6F6"
+		},
+		"1005": {
+			"order": 232,
+			"data": "FFFFFFFFFFFFFFFF"
+		},
+		"1006": {
+			"order": 233,
+			"data": "F6F6F6F6F6F6F6F6"
+		},
+		"1007": {
+			"order": 234,
+			"data": "3333333333333333"
+		}
+	},
+	"FONT": {
+		"25728": {
+			"name": "KidPix",
+			"order": 238,
+			"data": ""
+		},
+		"25762": {
+			"flags": 32,
+			"order": 239,
+			"data": "D00000000080001EFFFFFFF8001D00220D6A001A000800020061FFE7C7C7C000003E00F01FC00F83F01F07C00000000000003C03F0003C1FE007F8000781FFF00FE0FFFFC1FF801FE000000000000000FF800000000007801FFF8001FE03FFF01FFFFFFFFC03FC07C00FFC007FE00FBE001F8007FF003E01FE01FFF8003FC03FFF001FE07FFFFFE007FF000FFE00007DF803F7E003FFFFFFFFF80003FC100000F000003E000000000003E0000001F000003E000F807FE00F800000000000000000000000000000001F000000000000000000000000000003FFE0383FFFE7C7C7C00F80FF81F07FF00F87F81F8FC00000000000007C0FFC003C7FF81FFE000F81FFF03FF8FFFFC7FFE07FF800000000000003FFE003FFE00007801FFFE007FF83FFFC1FFFFFFFFC0FFF07C00FFC007FE01FBE001F8007FF003E07FF81FFFE00FFF03FFFC07FF87FFFFFE007DF000FBE03C07DF803F3F007EFFFFFFFFC0003FC380000F800003E000000000003E0000007FC00003E000F807FE00F800000000000000000000000000000001F00000000000000000000000000000FBEF8FC7FFFE7C7C7C00F81F7C3F07FF00F8FFC0F8F803E0000000000FC3FFF007CFFFC3FFF000F81FFF07FFCFFFFCFFFF0FFFC07C00000000007FFF00FFFF8000FC01FFFF01FFFE3FFFF1FFFFFFFFC3FFFC7C00FFC007FE03F3E001FC00FFF803E1FFFE1FFFF03FFFC3FFFE0FFFC7FFFFFE007DF000FBE03C07CFC07E1F007CFFFFFFFFE0003FC7C00007C00003E000000000003E000000FFE00003E000F807FE00F800000000000000000000000000000001F00000000000000000000000000001FBEFDFFFFFFE7FFFFF80F81E3C3F0FDF80F9F3E07DF003E0000000000FC7FFF807DFFFE7FFF801F81FFF0FFFCFFFFCFFFF1FFFE07C01C0001C00FFFF83FFFFE000FC01FFFF83FFFF3FFFF9FFFFFFFFC7FFFE7C00FFC007FE07E3E001FC00FFFC03E3FFFF1FFFF87FFFE3FFFF1FFFE7FFFFFE007CF801F3E03C07C7C07C1F80FCFFFFFFFFE0003FCFE00003E00003E000000000003E000001FFC00003E000F807FE00F800000000000000000000000000000001F00000000000000000000000000001F3E7D8FDDFDC3BFFFF83FC1E3C7E0F8F8071F3E07FF003E0000000001F8FF3FC1FDFCFE7F3F803F81F000FC7E000F9FC3F9FCFE07C03C0001E00FE3F87FFFFF000FC01F03F87F87FBE03F9F0007C000FF0FF7C00FFC007FE0FC3E001FC00FFFC03E7F87F9F03F8FF0FF3E07F1FCFE007C03E007CF801F3E07E07C3E0F80FC1F80003F7C3F00007DEF00001E00003E000000000003E000001F1800003E00000003E00F800000000000000000000000000000001F00000000000000000000000000001F3E7D071DFDC3BFFFF8FFF1E3CFC0F8F8073E1F03FE003E0000000003F0FC0FCFFFF03FFC0FC03F83F001F03E001F1F00FBF03F07C07C0001F01F80FCFE003F801FE01F00FC7E01FBE00FDF0007C000FC03F7C00FFC007FE1F83E001FE01FFFE03E7E01F9F00FCFC03F3E01FBF03F007C03E007CF801F1F07E0F83F1F807C1F00007E7C1F80007FC780000000003E000000000003E000003E0000003E00000003E00F800000000000000000000000000000001F00000000000000000000000000001F3E7C001DFC813FFFF9FFF9F7DF80F8F8023E1F7FFFF03E0000000007E1F807EFFFE01FF807C07F83E001F03E003E1F00FBE01F0000FFFFFFF81F007CF83F0F801FE01F007CFC00FFE007DF0007C001F801FFC00FFC007FE3F03E001FE01FFFF03EFC00FDF007DF801FBE00FBE01F007C03E007C7C03E1F07E0F81F1F003E3E0000FC7C0FC0007F8380000000003E000000000003E000003E0000003E00000003E00F800000000000000000000000000000001F00000000000000000000000000001F3E7C001DFC0007C7C1FFF8FF9F80FDF8003E1F7FFFF03E0000000007E1F003EFFFE01FF807C0FF83E001E000003E1F00FBE01F0001FBFFFEFC1F007DF0FFC7C03FF01F007CF8007FE007FF0007C001F000FFC00FFC007FE7E03E001FF03FFFF03EF8007DF007DF000FBE00FBE01F007C03E007C7C03E1F07E0F80FBE003F7E0000FC7C0FC0007C0000000000003E000000000003E000003E0000003E00000003E00F800000000000000000000000000000001F00000000000000000000000000000FBEF8001DFC0007C7C3F1FC3E3F007FF0007C0FFFFFF03E000000000FC1F003E07FE01F0007C0FF83E003E000007C0F81F3E01F0003F3FFFE7E1F007DF1FFE7C03FF01F007CF8007FE003FF0007C001F000FFC00FFC007FEFC03E001FF03FFFF83EF8007DF007DF000FBE00FBF000007C03E007C7C03E1F0FF0F80FFE001F7C0001F87C07E0007C0000000000003E000000000003E000003E0000003E00000003E00F800000000000000000000000000000001F00000000000000000000000000000FBEF8001DFC0007C7C3E07C007E007FF0007C0FFFFFFFFFF83FF0001F83F003F07C003F0007C1FF83FF83EFE000F80FE7F3E01FF807E3FFFE3F0000FFE3FFF3E03FF01F00F9F80003E003FF0007C003F00007C00FFC007FFF803E001FF03FFFFC3FF8007FF00FBF000FFE01F1FC00007C03E007C3E07C0F8FF1F007FC000FF80003F07C03F0007C0000000007F7FEFE001FE003FBE07F81FFC007F7FEFC0F807FE0FFFDE0FC3EFC003F81F7F000FEFFDE07F8FFE0F807FE07FE07C0FFC1FF81FFFFCFBEF8001DFC003FFFFBE07C00FC003FE0007C0F83FE0FFFF83FF0003F03E001F07C003E000F83FF83FFE3FFF800F807FFE3E01FF80FC000001F8001FBE7F3F3E07CF81F03F9F00003E003FF0007C003E00007C00FFC007FFF003E001FF87FFFFC3FF0003FF03FBE0007FE07F1FF80007C03E007C3E07C0F8FF1F003F8000FF80007E07C01F8007C000000001FFFFFFF807FF80FFFE1FFE1FFC01FFFFFFF0F807FE1FFFFFBFF3FFF00FFE1FFFC03FFFFFF9FFEFFE0F807FE07FE07C0FFE3FF81FFFFCFBEF8001DFC003FFFF9F00000FC007FC0007C0F87FF0FFFF83FF0003F03E001F07C007E01FF83EF87FFF3FFFC01F003FFC3F03FF81F8000000FC003FBE7C0FBE07CF81FFFF1F00003E003FFFFE7FFF3E00007FFFFFC007FFE003E001FF87FFF7E3FF0003FFFFF3E0007FFFFE0FFF0007C03E007C1F0F80F8FF1F003F80007F00007E07C01F8007C000000003FFFFFFFC0FFFC1FFFE3FFF1FFC03FFFFFFF8F807FE3FFFFFFFFBFFF81FFF1FFFE07FFFFFFFFFFFFE0F807DF0F9F0FE1F3E3E7C3EFFFDF3E7C001D78003FFFF9FF0001F800FF80007C0F87DF0FFFF83FF0007E03E001F07C00FC01FF07CF87FFFBFFFE01F00FFFF1FCFFF83F03FFFE07E00FF3EF80FBE0F87C1FFFE1F00003E003FFFFE7FFF3E00007FFFFFC007FFC003E001FFCFFFF3F3FF0003FFFFE3E0007FFFFC03FFC007C03E007C1F0F80F9FF9F001F00003E0000FC07C00FC007C000000007FFFFFFFE1FFFE3FFFE7FFF9FFC07FFFFFFFCF807FE7EFFFFFFFBFFFC3FFF9FFFF0FFFFFFFBFFFFFE0F807DF0F9F0FE1F1F7C7C3EFFFFE3E3E001D78003FFFF8FFE003F001FFC7C07C0F8F8F803E00000000FC03E001F07C01FC01FF0FCF87E3FBFCFE03E01FFFF9FFFF001F83FFFE0FC01FE3EF80FBE0F87C1FFFF1F00003E003FFFFE7FFF3E03FFFFFFFFC007FFE003E001FFCFFFF3F3FF0003FFFFC3E0007FFFFE00FFE007C03E007C1F0F807DFFBE003F80003E0001F807C007E007C00000000FE1FFF87F3F87F7F0FEFE1FC3E00FE1FFF8FEF807FEFCFFE3F8FFF8FE7F1FDFC3F9FC3FFE33E1F1F00F807DF0F9F0FE1F1FFC7C3E01F9F3E7C001D780007C7C07FF807E003FFE7C07C0F9F8FC03E00000001F803E001F07C07F801FF8F8F8780FFF03F03E01FC3F8FFFF000FC3FFFE1F803F83EF80FBE0F87C1FFFF9F00003E003FFFFE7FFF3E03FFFFFFFFC007FFF003E001F7CFBFF1FBFF0003FFFF03E0007FFFFF003FF007C03E007C0F9F007DFFBE003F80003E0003F007C003F007C00000000F807FE01F3E01F7C03EF807C3E00F807FE03EF807FFF8FFC1F07FE03E7C07DF00F9F00FFC03E001F00F807CF9F0F9FF3E0FF83E7C03F0F3E78001D780007C7C01FFC07E003E7F7C07C0F9F07C03E00000001F803E001F07C0FF0000F9F0F80007FE01F07E03F00FC7FFF07C7E3FFFE3F003F03E7C0FBE1F03E1F007DF00003E003FF0007C003E03FFFC00FFC007FFF803E001F7FFBFF0FFFF0003FF0003E0007FE07F0007F007C03E007C0F9F007DE7BE007FC0003E0003F007C003F007C00000001F007FE00FFC000F803FFFFFE3E01F007FE01FF807FFF0FFC1F07FE01FF803FF007FE00FFC03FF81F00F807CF9F0F9FF3E07F03E7C03F0FBEF8001D780007C7C003FC0FC007E3FF807C0F8000003E00000003F003F003F07C3FC00007FFFFF0007FE01F07C03E007C1FDF07C3F000007E007E03E7F3FBE1FFFE1F007DF80003E003FF0007C003F03FFFC00FFC007FEFC03E001F3FF3FF0FFFF8007FF0003F000FFE01F8001F807C03E007C07FE007FE7FE00FFE0003E0007E007C001F807C00000001F007FE00FFC000F803FFFFFE3E01F007FE01FF807FFE0FFC1F07FE01FF803FF007FE00FFC03FFE1F00F807C7FE07FEFFC07F01FF807E0FBEF8001D7800000000007E1F87C7C1FF807C0F8000003E00000007E001F003E07C7F800007FFFFF0007FE01F07C03E007C001F07C1F80000FC007E03E3FFFFC3FFFF1F003EF8007FE003FF0007C001F000FFC00FFC007FE7E03E001F3FF3FF07FEF8007DF0001F01CFBE00F8000F807C03E007C07FE003FE7FC00FBE0003E000FC007C000FC07C00000001F007FE00FFC000F803FFFFFE3E01F007FE01FF807FFC0FFC1F07FE01FF803FF007FE00FFC01FFF1F00F807C7FE07FEFFC03E01FF80FC0FBEF8001D7800000000003E3F1FF7C0FF803E1F0000003E0000000FC001F003E07CFF00F807FFFFFF807FE01F07C03E007C001E07C0FC0001F8007E01F1FFFFC3FFFF1F003EF8007FE007FF0007C001F000FFC00FFFE07FE3F03E001F3FF3FF03FEF8007DF0001F01EFBE00FFC00F807C03E007C07FE003FE7FC01F1F0003E001F8007C0007E07C00000001F007FE00FFC000F803FFFFFE3E01F007FE01FF807FFE0FFC1F07FE01FF803FF007FE00FFC007FF1F00F807C7FE07FEFFC07F01FF81F80FBEF8001D0000000007C03E3F3EFFC07F003E1F0000003E0000000FC001F807E07CFC00F807FFFFFF807FE01F0FC03E007DF03E01C07C0001F0000001F0FFFF83FFFF1F003EFC00FFE007DF0007C001F801FFC00FFFE0FFE1F83E001F1FE3FF03FEFC00FDF0001F81FFBE00FFC00F807C03F00FC03FC003FC3FC03F1F8003E001F8007C0007E07C00000001F007FE00FFC000F803FF00003E01F007FE01FF807FFF0FFC1F07FE01FF803FF007FE00FFC0001F1F00F807C3FC03FC7F807F00FF01F81F3E7C001D0000000007C03E7E3C7FE07F003E1F000000000000001F8000FC0FC07DF800FC0FC00F8FC0FBF03F0F803F00FDF03E01803C0001E0000000F83EFE07C00F9F007E7E01FBE00FDF0007C000FC03FFC00FFFE0FFE0FC3E001F1FE3FF01FE7E01F9F0000FC1FF3E00FFE01F807C01F00F803FC001FC3F807E0FC003E003F0007C0003F07C00000000F807FE01F3E01F7C03EF807C3E00F807FE01FF807FFF8FFC1F07FE01F7C07DF00F9F00FFC03E1F1F007C07C3FC03FC7F80FF80FF03F01F3E7C001D0000000007F07EFC3C7BF9FF801F3E000000000000003F0000FF3FC07DF0007F3F800F87F3F9FCFE0F801FC3F9F8FC03001C0001C0000000FE000007C00F9F01FC7F87FBE03F9F0007C000FF0FFFC00FFFF1FFE07E3E001F0FC3FF00FE7F87F9F0000FF0FF3E00FBF87F007C01FC3F801F8001FC3F807C07C003E007E0007C0001F87C00000000FE1FFF87F3F87F7F0FEFE1FC3E00FE1FFE01FF807FEFCFFC1F07FE01F7F1FDFC3F9FC3FFC03E1F0F8C7F1FC1F801F83F01FFC07F07E01F3E7C001DFC00000003FFFDF83C7BFFFFC01F3E0000000007C00FFE00007FFF807FFFFF7FFF800F87FFF1FFFE0F801FFFF8FFFCF80000000000007E007FFFFE07C00F9FFFFC3FFFF3FFFF9FFFFFC0007FFFFFC00FFDFFFBE03F3FFFFF0FC3FF00FE3FFFF1F00007FFFE3E00FBFFFF007C00FFFF001F8001FC3F80F803E003E00FFFFFFF8000FFFC007FFF007FFFFFFFE1FFFE3FFFE7FFF83E007FFFFE01FF807FE7EFFC1F07FE01F3FFF9FFFF0FFFFFC03FFF0FFE3FFFC1F801F83F01F7C07E0FFFDF3E7C001DFC00000003FFFDF83EF9FFFFE00FFC0000000007C00FFE00003FFF007FFFFF3FFF000F83FFE0FFFC0F800FFFF0FFF8F80000000000007E003FFFFE0F8007DFFFF81FFFE3FFFF1FFFFFC0003FFFFFC00FFDFFFBE01FBFFFFF0FC3FF007E1FFFE1F00003FFFF3E00F9FFFE007C00FFFF001F8000F81F01F803F003E00FFFFFFF8000FFFC007FFF003FFFFFFFC0FFFC1FFFE3FFF03E003FFFFE01FF807FE3FFFC1F07FE01F1FFF1FFFE07FFFFC03FFF07FF1FFFC1F801F83F03E3E07E0FFFDFBEFC001DFC00000001FFF9F01FF0FFF3F007F80000000007C00FFC00000FFC007FFFFF1FFE000F81FFC07FF80F8007FFE07FF0F80000000000007E000FFFFC0F8007DFFFF007FF83FFFC1FFFFFC0000FFF7FC00FFCFFF3E00FFFFFFF0783FF003E07FF81F00000FFFF3E00F8FFFC007C003FFC000F0000F81F03F001F803E00FFFFFFF80007FFC007FFF001FFFFFFF807FF80FFFE1FFE03E001FFFFE01FF807FE1FFFC1F07FE01F0FFE1FFFC03FFFFC01FFE03FE0FFFC0F000F01E07E3F07E0FFFCFBEF8001DFC000000007FE1E007C03FC1F003F00000000007C00FF8000003F0007FFFFF07F8000F807F001FE00F8001FF801FC0F80000000000007E0003FFF01F8007FFFFC001FE03FFF01FFFFFC00003FC3FC00FFC3FC3E007FFFFFF0783FF003E01FE01F000003FCF3E00F83FF0007C000FF0000F0000F81F03F001F803E00FFFFFFF80003FFC007FFF0007F7FEFE001FE003FBE07F803E0007F7FE01FF807FE0FFFC1F07FE01F03F81F7F000FEFFC007F800F803F7C0F000F01E07C1F07C0FFFC3FFE0001D00000000000F8000000000000000000000000001C000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007C00000007C00000000000000000001F0000000F8000000000000000000000000000000FC0000003E00001D00000000000F80000000000000000000000000018000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007C00000007C00000000000000000001F0000000F8000000000000000000000000000000F80000003E00001D00000000000F8000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300FC00000007C00000000000000000001F0000000F8000000000000000000000000000001F80000003E00001D00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007C3F80000018F800000000000000000001F0000000F8000000000000000000000000000003F00000003E00001D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFF8000003FF800000000000000000001F0000000F800000000000000000000000000000FF00000003E00001D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFF0000007FF000000000000000000001F0000000F800000000000000000000000000000FE00000003E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007FFE0000003FE000000000000000000001F0000000F800000000000000000000000000000FC00000003E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001FF80000000F8000000000000000000001F0000000F800000000000000000000000000000F000000003E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006001200250037004D0064006900710079008C009D00A200AC00B100C600DC00E600F8010A011C012E0140015201660178017D0182018E019F01AB01BE01DB01F30207021E023302450256026D02810286029602AA02BB02D302E702FF0312032A033D03510366037A039203AE03C503DC03F103F9040E0416042104300437044A045D04700483049704A704BA04CC04D104DE04EC04F1050A051C052F05420555056205700580059205A205BD05CC05DC05EA05F205F705FF060B060B060B060E0100FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0100FFFFFFFFFFFF0100FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF01090107010D0114011501160118010601090109011401120106010B010601160117010B0113011301130113011301130115011301060106010D0112010D0114011E0119011501180116011301120118011501060111011501120119011501190114011901140115011601150119011D001701180116010901160109010C010F0108011401140114011401150110011401130106010E010F0106011A0113011401140114010E010F011101130111011C01100111010F010901060109010D010101010204FFFF"
+		},
+		"3200": {
+			"name": "Digital",
+			"order": 246,
+			"data": ""
+		},
+		"3212": {
+			"flags": 32,
+			"order": 247,
+			"data": "9000000000D9000F0000FFF4000F000F0492000C00030001003F000000000000000000000000000000000000000000000000000000000000000001FFF8000000000000000000000000000000000000000000000000000001C004C8000000001800000000000000000000000000000000000000000000000000000000000000000000000000000000000206590000000000000000000000030000000000000001F3FBF007EFFF3E7C0000000000000000000000000000000002F3700000000000000000000000000000000000000000000000000000A2200932490000002400000000000000000000000000000000000000000000000000000000000000000000000000000000000109A60000000000000000000000030004000030000006EEF5EC1BD79EDDBA000000000000000000000020000000000300800000000038600000000000000000000000000000000000001C00022000000010840364022080641A24100D120804000000000000000000000000000000000000000000000000000180000000000000000000012950000060000003D14E7E61492000071E0C1E3C1801E3C600007802EFCF79FFBD0C187041C5EF9EFB00C43060318FE8280204000806080618000000000020000000002A6441C7BF8BD0A04A559804114A9B6C4229562114AEC031E00F380001D16801F9E800001100CFFF8017B8F0000090011000000001021E7BC0000249900088C01FE003D7F5929148C0000B1E0C1E3C1801E3C6000084F35C30C508430C18B063C618618700C43060318864340104000808080208000000000020000000002A984088618C30800000000000000000000000000005244A10154478789B8002821000000A00245100A8C50800000002200400000102218400000252A0080180102003829494A087F2000B1E0C1E3C1801E3C60208850B1C304308410C193055A618618700C430622A88A420007780781CFB0E2800B00F3C00744044631FAA00A148214C30B9CE739CE739CE94ACE739CE8C63152E4207A5448484950002823000849F4412113F28C605DC74900220040000028521841DC0000002148BFE9020038FCC684084C200131E0C1E3C1801E3C724040A771FD04308410C1A3049A6186186F0C428924A50A220008C5F8BE91C864BDECBE8C5EFA440446310AA00A148214C30C6318C6318C63194B318C6318C6314D541EFE549733291004482531888444471115129C60622889004764A0000028521842220000000228FFF902003850610A0852F9F120AF5EDEBD780DDBF89F21297FC3043EF4FFC1C2041961FA1F9E884289544512220007C6E8DC918C68DAD8DD8C6D72460AA9511490112283D2C30BDEF7BDF08C63194A318C6318C631014E21FE5454B420007E7F294A7F03F4490911126BA05E2991F84298A13200448A187A22000000FC18FFF10200380052D14840200231F78F3D7BF41EB7B10012296EC304308430C1A3041961821A018C425154A222120008C708E0918E70E638E38C7182471AA89122A011228212C30C6318C630FFFFF94A318C6318C631014421FD543734200008883144488444511111120010A3EAA10C8201124900448A18423FFFC000041887F10200380055308840200231F80183078C1E3060802227B1C304308430E1930418E18219018C425088A222120008C708DE918E68E638E38C71724719115142A03FFF8211C30C6318C6308421094A318C6318C63101441EFCF434B320001088214A48484451211112FFD0A20CA30A8265148480FFFE18422000000022288C3D0200300159314480000431F80183078C1E30705F401031C30C508430E18B0418E18258818C42208912420A0008C708EC918E64E638E38C70EA4F19123182A020C18611C30C6318C6318C63194A318C6319CE730154417854484840007F0861318000445245111200092228A301029A0A490083061842220000000148900102003800E8CE2480020C31F80183078C1E307A20820E20FCF79F83D0DE8704185E81E8418C3C2089127E0A3FC7FB07E08F8E62E638E3F3F019B719122FFAA020C17BF0BCF3DEF7BDEE739CE94A2E739CE6B5AD00EFA1005D87878000210F9E003FFE47ACFD122200199DD71D010203F932498305E7BDDC00000000878001FE00300040000300020031F80183078C1E30720000000000000000000002F0000000101E8C000000000306000002E05C01064066305D8060E802E8000101C0000010000000000000040000000000000000000000401E00000000000000000000000004000000020000000000000200000000000000000000000000008000000030000000000004002EB79E817B740DD7A40000000000000000000001F8000000003F08000000000000000001F03E11044042103E8041F001F000110000000008000000000000080000000000000000000000000000000000000000000000000008000000020000000000000200000000000000000000000000088000000030000000000000001F0FFF00FCF803EFC000000000000000000000000000000000000000000000000000000000000E01800000000000000000000E000000001000000000000000000000000000000000000000000000000000000000000000000000000004000000000000040000000000000000000000000007000000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010004000B00100017001F002000230026002C0031003300380039003E00450047004E0055005C0063006A00710078007F008100830087008C00900096009E00A500AB00B100B700BC00C100C700CD00CE00D400DA00E100E800EE00F400FA01000106010D0115011B0122012B01300135013A013C014101430146014E01500155015A01600165016B016F01740179017B017E0183018501900195019C01A101A601AB01B101B501BA01C101CA01CF01D401D901DC01DD01E001E601E601ED01F401FA01FF0205020B02110216021B02200225022A022F02340239023E02430248024A024C024F02520257025C02610266026B02700275027A027F02840287028B02900296029C02A202A802AF02B702BF02C802CA02CD02D302DD02E502EE02F302F702FB03000307030C03120319032103240329032E0336033F0346034B034C03510359035C03620369036F0375037C037C0383038A0390039A03A303A703AE03B303B803BA03BC03C103C803CD03DA03E40000FFFF0000000000000000FFFFFFFFFFFF0808FFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF04040103010501090107010900090103010501050108010701040107010301070008030800080008000800080008000800080008010301040106010701060108010A0109010801080108010701070108010802050007010800070109010801080108010801080008000801080109010B010701070107010401070104010400080104010701070007010701070106010701070105010601070105000B010700070107010701060107010601070007010B010701070107010501030105010800000109010901080107010801080108010701070107010701070107010701070107010701070205010501050105010701070107010701070107010701070107010701050106010701080108010801080109010A010A010B010401050108010C0008010B01070106010601070109010701080109010A010500060006010A010B0007010802040107010A01050108010901080108020A0808010901090108010C010B010601090107010701040104010701090108010F000A0003"
+		}
+	},
+	"FOND": {
+		"201": {
+			"name": "KidPix",
+			"order": 240,
+			"data": "400000C9000000FF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000022000064A2000000000006000000000000FC0010000C00"
+		},
+		"200": {
+			"name": "Digital",
+			"order": 248,
+			"data": "700000C8000000FF1000FC00015614F800000000000000000000007E0000000000000000000000000000000000000000000000030000000C00000C8C"
+		}
+	},
+	"Sped": {
+		"1000": {
+			"order": 237,
+			"data": "0032000000320001003200030032000400320007003100080031000A0031000B0030000D0030000E002F0011002F0012002E0014002E0015002D0017002C0018002B001A002A001B0029001C0028001D0027001F002600200025002200240023002300240022002500200026001F0027001D0028001C0029001B002A001A002B0018002C0017002D0015002E0014002E0012002F0011002F000E0030000D0030000B0031000A00310008003100070032000400320003003200010032"
+		}
+	},
+	"PrLd": {
+		"1000": {
+			"name": "PreLoad Sprites",
+			"order": 396,
+			"data": "03EA03EB03FD03FE03FF040704080409044C044D044E044F045004510452045304540456045704580459045A049C049D04B004B104B204B304B404B504B604B704B804B904BA04BB04BC0579057A057E058505870588058C058D058E058F0590059405960597059905AA05AE05AF05B005B105B305B705BA05BC05BD05BE05C305C405C5070D070E000000000000"
+		},
+		"2000": {
+			"name": "Disposal Sprites",
+			"order": 401,
+			"data": "0456045704580459045A047E047F04880489048A048D048E048F04970498049904A103FD03FE03FF04A604A704A804AB04AD04AE0579057A057B057C057D057E0580058105830584058505860589058A058B058E058F0590059105920593059405950598059A059B059C059D05A005A105A205AA05AB05AC05AD05AE05AF05B005B105B305B405B505B605B705B805B905BA05BB05BC05BD05BE05BF05C005C105C205C305C405C505C605C607080709070A070B070D070E071207130714071707180719071C071D05AB05AD05AD05B6"
+		}
+	},
+	"ics8": {
+		"128": {
+			"order": 397,
+			"file": "ics8/128.png"
+		}
+	},
+	"crsr": {
+		"1000": {
+			"order": 412,
+			"data": "8001000000600000009200000000000000000000000000C000F000F800F800FC00FC00007E007E003E003E001E0006000000000007C01FF03FF87FFC7FFCFFFEFFFEFFFEFFFEFFFE7FFC7FFC3FF81FF007C00000000700070000000000000000000000008002000000000010001000000000000000000048000000480000000000010001000100000000000000B200000000000000C000F000F800F800FC00FC00007E007E003E003E001E0006000000000000000000000000010000FFFFFFFFFFFF0001EEEE00000000"
+		},
+		"1001": {
+			"order": 413,
+			"data": "800100000060000000920000000000000000000000000000000020083018783C7C7C7EFC7C7C783C30182008000000000000000007C01FF03FF87FFC7FFCFFFEFFFEFFFEFFFEFFFE7FFC7FFC3FF81FF007C00000000700070000000000000000000000008002000000000010001000000000000000000048000000480000000000010001000100000000000000B20000000000000000000020083018783C7C7C7EFC7C7C783C30182008000000000000000000000000000000010000FFFFFFFFFFFF0001EEEE00000000"
+		},
+		"1002": {
+			"order": 414,
+			"data": "8001000000600000009200000000000000000000000006001E003E003E007E007E00000000FC00FC00F800F800F000C00000000007C01FF03FF87FFC7FFCFFFEFFFEFFFEFFFEFFFE7FFC7FFC3FF81FF007C00000000700070000000000000000000000008002000000000010001000000000000000000048000000480000000000010001000100000000000000B200000000000006001E003E003E007E007E00000000FC00FC00F800F800F000C00000000000000000000000010000FFFFFFFFFFFF0001EEEE00000000"
+		},
+		"1003": {
+			"order": 415,
+			"data": "8001000000600000009200000000000000000000000007C01FF00FE007C00380010000000100038007C00FE01FF007C00000000007C01FF03FF87FFC7FFCFFFEFFFEFFFEFFFEFFFE7FFC7FFC3FF81FF007C00000000700070000000000000000000000008002000000000010001000000000000000000048000000480000000000010001000100000000000000B200000000000007C01FF00FE007C00380010000000100038007C00FE01FF007C00000000000000000000000010000FFFFFFFFFFFF0001EEEE00000000"
+		}
+	},
+	"TEXT": {
+		"1000": {
+			"flags": 20,
+			"order": 425,
+			"obj": "                                                                         WELCOME TO THE FIRST PUBLIC RELEASE OF BURNING RUBBER.  REMEMBER THAT THIS PROGRAM IS NOT FREE!  IT IS TRY-AND-BUY-OR-DIE-WARE.  IF YOU LIKE IT, *PLEASE* HELP OUT A POOR FIFTEEN-YEAR-OLD MAC FAN (ME).  C'MON, IT'S JUST TEN BUCKS (OR 15 DM).  MY ADDRESS IS GIVEN IN THE 'ABOUT THIS...' DIALOG-BOX IN THE APPLE-MENU.  IF YOU A REAL POOR BEGGAR, WHO CAN'T MANAGE TO GET TEN BUCKS, OR PRETEND TO BE ONE, SEND WHATEVER YOU THINK IS APPROPIATE (BOLO & MARATHON MAPS, POSTCARDS, ANYTHING ELSE IS OKAY) OR REGISTER ME FOR YOUR OWN SHAREWARE, JUST TELL ME WHAT YOU THINK OF THIS.  IF YOU HAVE ANY BUG REPORTS(---SIGH) OR SUGGESTIONS PLEASE TELL ME AS WELL.      TO SOME EXTEND THIS PROGRAM IS BASED ON GAMES LIKE THE ORIGINAL BURNING RUBBER GAME WHICH RAN ON COMMODORE C64 MACHINES, ALTHOUGH MOST GAME ELEMENTS WERE MY OWN IDEAS.  I JUST FOUND THAT THERE WERE ABSOLUTLEY NO TOP-ON-PERSPECTIVE-CAR-GAMES ON THE MAC.     HERE ARE SOME TECHNICAL FACTS: (AS IF YOU CARED ANYWAY ;->  )    THIS GAME IS ENTIERLY CODED IN PASCAL (IT'S TRUE! -YES, I KNOW THAT PASCAL PROGRAMMING IS BRAINDEAD...), THE SPRITES WERE DRAWN USING THE RESEDIT 'cicn' EDITOR (I COULDN'T DO BETTER THAN THAT EITHER...) AND THE LOGOS WERE MADE WITH A DEMO VERSION OF A PHOTO-EDITING TOOL (THERE'S STILL 'CMD-SHFT-3' ;->  ). THAT'S IT FOR NOW...  BYE!!!!                     -AND REMEMBER: *REAL* PEOPLE NEVER BRAKE!!!!!             ...LONG LIVE THE MAC...                   HEY YOU!  WHEN I SAY 'BYE' I MEAN 'BYE'!!!  WHAT ARE YOU STILL DOING HERE?  LOOKING FOR SOME WAY TO CHEAT? WELL THEN TRY THE FOLLOWING:    PRESS THE OPTION KEY WHILE CLICKI...   -OOOPS! I WASN'T SUPPOSED TO TELL YOU!  YOU SHOULD HAVE FOUND OUT BY YOURSELF!!!   ER,... - IT WAS ..ER..  A LIE!                COPYRIGHT(C)1996 JONAS ECHTERHOFF                      WRAP\t                                        "
+		}
+	},
+	"ics#": {
+		"128": {
+			"order": 429,
+			"file": "ics%23/128.png"
+		}
+	},
+	"ics4": {
+		"128": {
+			"order": 430,
+			"file": "ics4/128.png"
+		}
+	}
+}

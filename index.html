@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#11130e">
+    <title>Burning Rubber — browser edition</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main class="cabinet">
+      <header class="masthead">
+        <p>CLASSIC MACINTOSH GAME · 1995</p>
+        <h1>Burning Rubber</h1>
+      </header>
+
+      <div class="game-frame">
+        <canvas id="game" width="620" height="480" aria-label="Burning Rubber game"></canvas>
+        <section id="menu" class="menu" aria-label="Game menu">
+          <img class="logo" src="./data/Race.json_resources/PICT/2010.png" alt="Burning Rubber">
+          <p id="menu-copy">The road is yours. The traffic isn't.</p>
+          <div class="menu-actions">
+            <button id="start" class="primary">Start driving</button>
+            <button id="choose-level">Choose level</button>
+            <button id="help">How to play</button>
+            <button id="sound-toggle" aria-pressed="true">Sound: on</button>
+          </div>
+          <div id="level-list" class="level-list" hidden aria-label="Select a level"></div>
+          <p id="help-copy" class="help-copy" hidden></p>
+          <p class="menu-hint">Arrow keys or WASD to drive · P / Esc to pause</p>
+        </section>
+        <section id="pause" class="dialog" hidden aria-live="polite">
+          <h2>Paused</h2>
+          <p>Take a breath. The road can wait.</p>
+          <button id="resume" class="primary">Resume</button>
+          <button id="quit-to-menu">Main menu</button>
+        </section>
+        <section id="police" class="dialog" hidden aria-live="polite">
+          <h2>Police</h2>
+          <p>Gotcha!!</p>
+          <p>Pay 500 points to avoid danger?</p>
+          <button id="police-pay" class="primary">Pay</button>
+          <button id="police-run" class="secondary">Run Away</button>
+        </section>
+        <section id="game-over" class="dialog" hidden aria-live="polite">
+          <h2>Game over</h2>
+          <p id="final-score"></p>
+          <button id="play-again" class="primary">Try again</button>
+          <button id="game-over-menu">Main menu</button>
+        </section>
+        <p id="error" class="error" role="alert" hidden></p>
+      </div>
+
+      <nav class="touch-controls" aria-label="Touch controls">
+        <button data-control="left" aria-label="Steer left">◀</button>
+        <button data-control="brake" aria-label="Brake">BRAKE</button>
+        <button data-control="accelerate" aria-label="Accelerate">GAS</button>
+        <button data-control="right" aria-label="Steer right">▶</button>
+      </nav>
+
+      <footer>
+        <span>10 original courses<br><small class="footer-attribution">A recreation based on original Pascal source code Copyright (c) 1995 jonas echterhoff</small></span>
+        <span>620 × 480 original playfield</span>
+        <span>Best: <b id="best-score">0</b></span>
+      </footer>
+    </main>
+    <script type="module" src="./game.js"></script>
+  </body>
+</html>
